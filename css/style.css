@@ -889,7 +889,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
              /****** S L I K A ******/
 
 .onama-holder {clear: both; width: 100%; margin:auto;}
-.onama-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.onama-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
 .onama-container {width: 100%; background: url(../images/onama3.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
@@ -1052,7 +1052,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 .smest-holder {clear: both; width: 100%; margin:auto; }
-.smest-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.smest-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
 .smest-container {width: 100%;  background: url(../images/smest2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .smest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
@@ -1301,7 +1301,7 @@ input:focus {outline: none;}
         /****** S L I K A ******/
 
 .rest-holder {clear: both; width: 100%; margin:auto;}
-.rest-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.rest-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
 .rest-container {width: 100%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}

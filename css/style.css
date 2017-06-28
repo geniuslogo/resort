@@ -817,7 +817,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 /********************************************************************    O       N A M A     *********************************************************************************/
-
+  /* Large Devices, Wide Screens */
 
 
          /****** S L I K A ******/
@@ -881,122 +881,109 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 
+      /*        Medium Devices, Desktops       */
 
 
+  @media all and (max-width: 1199px) {
 
+             /****** S L I K A ******/
 
-/********************************************************************    R E S T O R A N     *********************************************************************************/
-
-
-
-         /****** S L I K A ******/
-
-.rest-holder {clear: both; width: 100%; margin:auto;}
-.rest-container {width: 96%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
-.rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
-                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
+.onama-holder {clear: both; width: 100%; margin:auto;}
+.onama-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.onama-container {width: 100%; background: url(../images/onama3.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
  
          /****** O   S O L A R I S U ******/
 
-.biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
-.biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.biber-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px}
-.onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
+.osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
+.osolarisu-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
-.biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
-                                width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0;}
+.osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
+                                width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
 
-.biber-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
-                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
-
-
+.osolarisu-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
-        /****** G A L E R I J A  BIBER ******/
+
+  }
 
 
-.galerija-biber-holder {width: 100%; margin:auto; }
-
-.galerija-biber-container {width: 96%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
-
-.container-biber  {position: relative; width:19.3%;}
 
 
-.container-biber1  {position: relative; width:19.3%;}
-.container-biber2  {position: relative;  }
+        /*              TELEFONI              */
 
-.image { display: block; width: 100%;  height: auto;}
-.c3 {margin-top: .62vw}
+@media all and (max-width: 640px) {
 
- /*** naslov galerije ***/
-.c2 .overlay {opacity: 1; background-color: rgba(255, 255, 255, 1); transition: .5s ease;}
 
+             /****** S L I K A ******/
+
+.onama-holder {clear: both; width: 100%; margin:auto;}
+.onama-container {width: 100%; background: url(../images/onama3.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+ 
+         /****** O   S O L A R I S U ******/
+
+.osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
+.osolarisu-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
+.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
+
+.osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
+                                width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
+
+.osolarisu-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
+
+
+           /******   G A L E R I J A      O NAMA ******/
+
+
+.galerija-onama-holder {width: 100%; margin:auto; }
+
+.galerija-onama-container {width: 100%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%}
+
+
+
+
+.container-onama  {position: relative; width:63.8%;}
+.container-onama1  {position: relative; width:31.8%;}
+
+.onama2 {display: none;}
+
+
+.image-onama { display: block; width: 100%;  height: auto;}
+
+
+
+.container-onama:hover .probanje { opacity: 1;}
+.container-onama1:hover .probanje { opacity: 1;}
 
 .overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: rgba(255, 255, 255, 0.85); cursor: pointer;}
 
-.container-biber:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
-.container2-biber:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
+.container-onama:hover .overlay { display: none;}
+.container-onama1:hover .overlay { display: none;}
 
-.text2 {  color: #2b2e36; font-family: 'PlayItal'; font-size: 28px;  position: absolute; top: 50%; left: 50%; font-weight: normal; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
+.text4 {  display: none;}
 
-
-
-
-
-      /*              TELEFONI              */
-
-
-
-@media all and (max-width: 640px) 
-
-{
-           /****** S L I K A ******/
-
-.rest-holder {clear: both; width: 100%; margin:auto;}
-.rest-container {width: 100%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
-.rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
-                    letter-spacing: 2px; font-size: 12px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;opacity: 0;}
-
-         /****** O   S O L A R I S U ******/
-
-.biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
-.biber-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
-.biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
-
-.biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
-                                width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0; display: none;}
-
-.biber-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
-                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
-
-
-       /****** G A L E R I J A  BIBER ******/
-
-
-.galerija-biber-holder {width: 100%; margin:auto; }
-
-.galerija-biber-container {width: 100%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%; }
-
-.container-biber  {position: relative; width:100%;}
-.container-biber1  {width:0%;}
-
-.c4 {display: none;}
-.c5 {display: none;}
-.c6 {display: none;}
-
-.c7, .c8, .c9 {position: relative; width:31%; float: left; padding-right: 3%;}
-
-.container-biber2  {position: relative;  }
-
-.image { display: block; width: 100%;  height: auto;}
-.c3 {margin-top: .62vw}
 
 
 }
+
+
+
+
+
+/*********************************************   kraj o nama   *************************************************************/
+
 
 
 
@@ -1065,6 +1052,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 .smest-holder {clear: both; width: 100%; margin:auto; }
+.smest-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
 .smest-container {width: 100%;  background: url(../images/smest2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .smest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
@@ -1073,7 +1061,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .apartman-cont-holder {clear: both; width: 100%; margin:auto; margin-top: -1%;}
 .apartman-cont-container {position:relative; clear: both; width: 100%;   margin:auto;  padding: 0 0 6% 0;  }
 .apartman-cont-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.apartman-cont-box p {width: 90%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 26px}
+.apartman-cont-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
 .apartman-cont-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .sobe-container {width: 60%; position: relative; margin:auto; text-align: center;  }
@@ -1103,9 +1091,9 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
 .footer-container {width: 100%; background: url(../images/footerbek2.png) repeat;  margin: auto; height: 272px; }
 .footer-box {width: 100%; position: relative; margin:auto;}
-.footer-logo {float: left; position: absolute; margin-top: 3%; margin-left: 4%; width: 50%;}
+.footer-logo {float: left; position: absolute; margin-top: 48px; margin-left: 4%; width: 50%;}
 
-.social {width: 50%;  margin-top: 3%; float: right; }
+.social {width: 50%; margin-top: 48px; float: right; }
 .social li  {clear: both; display: inline-block; margin-right: 8%;}
 .social li a img  {opacity: 0.6; }
 .social li a:hover img  {opacity: 1; transition: all 0.2s ease-in-out;}
@@ -1116,7 +1104,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 /*** subscr ***/
 
 .subscr  {clear: both; margin-top: 3%; width: 100%; float: left; margin: auto;}
-.subscr p { font-family: 'Book'; color: #b99b7f; font-size: 15px;font-weight: normal;  line-height: 22px; margin-bottom: 3%; margin-top: 3%; letter-spacing: 1px; margin-left: 0%; text-align: center;}
+.subscr p { font-family: 'Book'; color: #b99b7f; font-size: 15px;font-weight: normal;  line-height: 22px; margin-bottom: 20px; margin-top: 20px; letter-spacing: 1px; margin-left: 0%; text-align: center;}
 
 
 
@@ -1212,9 +1200,9 @@ input:focus {outline: none;}
 .footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
 .footer-container {width: 100%; background: url(../images/footerbek2.png) repeat;   margin:auto;  margin-top: 10%;}
 .footer-box {width: 100%; position: relative; margin:auto;}
-.footer-logo {width: 100%;  float: left; position: absolute; padding-top: 8%; margin: auto; display: block;}
+.footer-logo {width: 100%;  float: left; position: absolute; padding-top: 50px; margin: auto; display: block;}
 
-.social {width: 100%; margin: auto; float: left; clear: both; display: block; margin-top: 31%;}
+.social {width: 100%; margin: auto; float: left; clear: both; display: block; margin-top: 150px;}
 .social li  {clear: both; display: inline-block; margin-right: 3%; margin-bottom: 8%;}
 .social li:last-child  {margin-right: 0%;}
 .social li a img  {opacity: 0.6; }
@@ -1234,7 +1222,7 @@ input:focus {outline: none;}
 }
 
 
-/********************************************************************    kraj smestaja   *********************************************************************************/
+/*********************************************   kraj smestaja   *************************************************************/
 
 
 
@@ -1313,6 +1301,7 @@ input:focus {outline: none;}
         /****** S L I K A ******/
 
 .rest-holder {clear: both; width: 100%; margin:auto;}
+.rest-container::before {background: url(../images/logotype.png) no-repeat; content: ''; width: 300px; height: 116px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
 .rest-container {width: 100%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
@@ -1323,8 +1312,8 @@ input:focus {outline: none;}
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .biber-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.biber-box p {width: 90%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 26px}
-.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
+.biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
                                 width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
@@ -1358,7 +1347,6 @@ input:focus {outline: none;}
 
 
 
-
   }
 
 
@@ -1386,7 +1374,7 @@ input:focus {outline: none;}
 .biber-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
 .biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
-.biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
+.biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
                                 width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0; display: none;}
@@ -1419,7 +1407,7 @@ input:focus {outline: none;}
 
 }
 
-
+/*********************************************   kraj restorana   *************************************************************/
 
 
 

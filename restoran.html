@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  	
+	<title>SOLARIS resort</title>
+
+ <!-- fade in content efekat -->
+<script type="text/javascript">
+    $(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+</script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header class="cd-auto-hide-header">
+
+
+  <nav class="cd-primary-nav">
+
+    <a href="#cd-navigation" class="nav-trigger">
+      <span><em aria-hidden="true"></em></span>
+    </a> <!-- .nav-trigger -->
+    
+        <ul id="cd-navigation">
+          <li><a href="index.html">POČETNA</a></li>
+          <li><a href="onama.html">O NAMA</a></li>
+          <li><a href="smestaj.html">SMEŠTAJ</a>
+            <ul class="submenu">
+                      <li><a href="#">STANDARD SOBA</a></li>
+                      <li><a href="#">CLASSIC APARTMAN</a></li>
+                      <li><a href="#">PORODIČNA SOBA</a></li>
+                      <li><a href="#">PENTHOUSE APARTMAN</a></li>
+
+            </ul>
+          </li>
+          <li  class="fokus"><a href="restoran.html">RESTORAN BIBER</a>
+            <ul class="submenu">
+                      <li><a href="#">À LA CARTE</a></li>
+
+           </ul>
+          </li>
+
+          <li class="logor" ><a href="index.html"><img src="images/Untitled-5.png" alt="Logo"></a></li>
+
+          <li><a href="#0">BUSINESS</a></li>
+          <li><a href="#0">SPA & WELLNESS</a></li>
+          <li><a href="#0">GALERIJA</a></li>
+          <li><a href="#0">KONTAKT</a></li>
+        </ul>
+   
+  </nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+
+
+<main class="cd-main-content">
+
+
+                       <!-- POZADNSKA SLIKA RESTORAN -->
+
+           <div class="rest-holder">
+               <div class="rest-container">
+                  <p>Bogatstvo ukusa u restoranu Biber!</p>
+               </div>
+           </div>
+
+ <!-- kraj pozadinske -->
+
+
+
+<div class="wrapper">
+
+
+                <div class="clear"></div>
+
+
+
+
+                         <!-- O RESTORANU -->
+
+        <div class="biber-holder">
+
+
+            <div class="biber-container">
+
+                    <div class="biber-box">
+                        <h4>Restoran Biber</h4>
+                        <div class="onama-linija"></div>
+
+                        <p>U ponudi Resorta je i restoran Biber. Svojim enterijerom i dizajnom, pruža osećaj tradicionalne,
+                          tople atmosfere uz spoj raznovrsnih ukusa i ugođaja. Osim za goste Solaris-a restoran je otvorenog tipa
+                          i za sve one koji žele da osete jedinstven gastronomski užitak. </p>
+
+                        <p class="hideme">U februaru 2014. godine Solaris Resort je postao prvi u Srbiji sa uručenim Halal sertifikatom
+                            za proces proizvodnje i distribucije hrane u okviru restorana Biber</p>
+
+
+                        <p class="hideme">Restoran nudi a la carte ponudu sa širokom paletom nacionalnih specijaliteta Španije, Francuske, Italije
+                                  ili Dalekog istoka, bogat izbog vina i poslastica, mogućnost organizovanja tematskih večeri
+                                  sa adekvatnim muzičkim programom i animacijama za goste. </p>
+
+                        <p class="hideme">Restoran raspolaže kapacitetom od 130-150 mesta.</p>
+
+
+
+
+
+                        <div class="onama-linija hideme"></div> 
+
+                    </div>
+
+
+            </div>
+
+        </div>
+ <!-- kraj bibera -->
+
+                            
+
+
+
+
+
+                          <!-- G A L E R I J A -->
+
+
+        <div class="galerija-biber-holder hideme">
+
+                    <div class="galerija-biber-container">
+
+
+                      <div class="container-biber c4">
+                          <img src="images/b1.jpg" class="image">
+                      </div>
+
+                      <div class="container-biber1">
+                          <div class="container2 c2 c5">
+                              <img src="images/a7.jpg" class="image">
+                                <div class="overlay">
+                          <div class="text2">Radno vreme 07:30  -  22:00</div>
+                          </div> 
+                            </div>
+
+                            <div class="container-biber2 c3 c6">
+                              <img src="images/b2.jpg" class="image">
+                        </div>
+                      </div>
+
+                      <div class="container-biber c7">
+                        <img src="images/b3.jpg" class="image">
+                      </div>
+
+                      <div class="container-biber1 c8">
+
+                        <div class="container-biber2">
+                          <img src="images/b7.jpg" class="image">
+                        </div>
+
+                        <div class="container-biber2 c3">
+                          <img src="images/b4.jpg" class="image">
+                        </div>
+                      </div>
+
+
+                      <div class="container-biber c9">
+                        <img src="images/a5.jpg" class="image">
+                      </div>
+
+                    </div>
+
+        </div>
+ <!-- kraj galerije -->
+
+
+
+
+                          <!-- F O O T E R -->
+
+
+
+        <div class="footer-onama-holder">
+
+                <div class="footer-container">
+
+                <div class="footer-box hideme ">
+
+                  <div class="footer-logo">
+                    <img src="images/footer-logo.png"/>
+                  </div>
+              
+                  <ul class="social">
+                    <p>PRATITE NAS</p>
+                    <li><a href="#"><img src="images/f-logo.png"/></a> </li>
+                    <li><a href="#"><img src="images/in-logo.png"/></a> </li>
+                    <li><a href="#"><img src="images/yt-logo.png"/></a> </li>
+                  </ul>
+
+
+                  <ul class="subscr">
+                    <p>PRIJAVITE SE ZA NOVOSTI</p>
+
+                    <div class="subscribe">
+                      <span class="placeholder" >What is your email?</span>
+                      <input type="text" onkeydown="clean()" id="input"/>
+                      <button class="submit">→</button>
+                    </div>
+                  </ul>
+
+
+                </div>
+
+                </div>
+        </div>
+
+ <!-- kraj futera -->
+
+
+          <div class="copyright">Copyright © 2017.&nbsp;&nbsp;&nbsp; Solaris Resort.&nbsp;&nbsp;&nbsp; All rights reserved.</div>
+
+</main> <!-- .cd-main-content -->
+	
+
+<!-- SUBSCRIBE  -->
+<script type="text/javascript">
+  
+  var placeholder = document.querySelectorAll('.placeholder'),
+    submit = document.querySelectorAll('.submit'),
+    input = document.getElementById('input');
+
+function clean(event) {
+  if(event.keyCode === 13) {
+    moveBtn();
+  }
+  placeholder[0].style.opacity = "0";
+  placeholder[0].innerHTML = "Check your inbox!";
+}
+
+input.addEventListener('keydown', function() {
+  placeholder[0].style.opacity = "0";
+});
+
+submit[0].addEventListener('click', function() {
+  moveBtn();
+});
+
+function moveBtn() {
+  submit[0].classList.add('move-btn');
+  placeholder[0].style.opacity = "0";
+  setTimeout(function() {
+    placeholder[0].innerHTML = "Check your inbox!"
+    submit[0].textContent = ";-)";
+    placeholder[0].classList.add('placeholder-active');
+    input.value = "";
+  }, 500);
+}
+</script>
+
+
+ <!-- S M E S T A J  -->
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+ <!-- S L A J D E R  -->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 6000); // Change image every 6 seconds
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

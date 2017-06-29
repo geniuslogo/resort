@@ -1346,7 +1346,7 @@ input:focus {outline: none;}
 
 
 div.tab1 {
-   clear: both; background-color: rgba(0, 0, 0, 0); margin: auto; text-align: center; }
+   clear: both; background-color: rgba(0, 0, 0, 0); margin: auto; text-align: center; display: inline-block; }
 
 
 

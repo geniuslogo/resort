@@ -333,6 +333,7 @@ body {
   border-top: 1px solid #f2f2f2;
   text-decoration: none;
   font-family: 'PlayReg';
+  font-weight: bolder;
 }
 .cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
   color: #a78a6f; transition: all 0.2s ease-in-out;

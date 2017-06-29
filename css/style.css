@@ -1299,6 +1299,20 @@ input:focus {outline: none;}
 /****** a LA CARTE ******/
 
 
+.ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.ala-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.ala-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px}
+
+
+.ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
+                                width: 172px; height: 114px; display: block; position: absolute;  left: 3%; bottom: 36%;}
+
+.ala-container::after { background: url(../images/ala-right.png) no-repeat; content: '';
+                                width: 262px; height: 240px; display: block; position: absolute;  right: 0; bottom: 12%;}
+
+
+
 .alacarte-holder {width: 100%; margin:auto;}
 
 .alacarte-container { width: 80%;  margin:auto; margin-top: 4%; height: 900px; }
@@ -1477,6 +1491,19 @@ div.tab button.active {
 
 
 /****** a LA CARTE ******/
+
+
+.ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.ala-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
+
+
+.ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
+                                width: 172px; height: 114px; display: block; position: absolute;  left: 3%; bottom: 36%;}
+
+.ala-container::after { background: url(../images/ala-right.png) no-repeat; content: '';
+                                width: 262px; height: 240px; display: block; position: absolute;  right: 0; bottom: 12%;}
 
 
 .alacarte-holder {width: 100%; margin:auto;}

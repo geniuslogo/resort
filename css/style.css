@@ -735,6 +735,116 @@ div.tab button.active {
 
 
 
+/********************************************************************    P O C E T N A     *********************************************************************************/
+      /*  P O C E T N A        Medium Devices, Desktops       */
+
+
+  @media all and (max-width: 1199px) {
+
+/* Slideshow container */
+.slideshow-container {max-width: 100%; padding-top: 6%; padding-bottom: 1%; position: relative; margin: auto;}
+
+.mySlides { display: none;}
+
+
+
+/* Caption text */
+.text {
+  color: #fff; 
+  font-family: 'PlayItal';
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding: 40px 12px;
+  position: absolute;
+  bottom: 16%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+   font-family: 'PlayReg';
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px 12px;
+  position: absolute;
+  bottom: 9%;
+  right: 3%;
+}
+
+.numbertext span { opacity: .4;}
+
+
+
+
+              /****** P A K E T I ******/
+
+.paketi-holder {display: none;}
+
+              /****** S M E S T A J ******/
+
+.smestaj-holder {display: none;}
+
+
+           /****** G A L E R I J A ******/
+
+
+       /****** G A L E R I J A  BIBER ******/
+
+
+
+.galerija-holder {width: 100%; margin:auto; }
+
+.galerija-container {width: 100%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
+
+
+
+.galerijac1 {display: none;}
+.galerijac2 {display: none;}
+.container  {position: relative; width:49%; padding-right: 0.6%;}
+.container1  {position: relative; width:49%; padding-right: 0.6%;}
+
+
+.image { display: block; width: 100%;  height: auto;}
+.c3 {margin-top: 1vw}
+
+ /*** naslov galerije ***/
+
+
+.overlay { display: none;}
+
+
+
+
+              /****** L O K A C I J A ******/
+
+.lokacija-holder { display: block; width: 100%; margin:auto; }
+.lokacija-container {width: 100%;  margin:auto; margin-top: 2%; height: 440px;}
+.mapa {float: left; position:absolute; display: block; width: 100%; margin:auto; border: none;  outline: none; }
+.lokacija-box p {float: right; display: block;}
+
+.lokacija-box { margin:auto; padding-top: 0px;  width: 100%;}
+
+.kntk {position: relative; float: right;    z-index: 99;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
+.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
+
+.kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
+.adr {clear: both;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
+
+.adr p span {color:#a78a6f; }
+#rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
+
+
+
+  }
+/**********    kraj pocetne 1199   *****************/
+
+
 
           /****** F O O T E R ******/
 
@@ -1091,7 +1201,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 
-.footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
+.footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 3%; margin-bottom: 1.5%;}
 .footer-container {width: 100%; background: url(../images/footerbek2.png) repeat;  margin: auto; height: 272px; }
 .footer-box {width: 100%; position: relative; margin:auto;}
 .footer-logo {float: left; position: absolute; margin-top: 48px; margin-left: 4%; width: 50%;}

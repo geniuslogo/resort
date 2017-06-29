@@ -831,7 +831,7 @@ div.tab button.active {
 
 .lokacija-box { margin:auto; padding-top: 0px;  width: 100%;}
 
-.kntk {position: relative; float: right;    z-index: 99;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
+.kntk {position: relative; float: right;    z-index: 1;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
 .kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 

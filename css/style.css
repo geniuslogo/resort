@@ -1303,7 +1303,7 @@ input:focus {outline: none;}
 
 .alacarte-container { width: 80%;  margin:auto; margin-top: 4%; height: 900px; }
 
-.alacarte {width: 52%;  margin: auto; text-align: center; }
+.alacarte {width: 57%;  margin: auto; text-align: center; }
 
 
 
@@ -1471,6 +1471,60 @@ div.tab button.active {
 
 .image { display: block; width: 100%;  height: auto;}
 .c3 {margin-top: 1vw}
+
+
+
+
+
+/****** a LA CARTE ******/
+
+
+.alacarte-holder {width: 100%; margin:auto;}
+
+.alacarte-container { width: 90%;  margin:auto; margin-top: 4%; height: 900px; }
+
+.alacarte {width: 78%;  margin: auto; text-align: center; }
+
+
+.biber-box-meni h4 {
+    margin: auto;
+    text-align: center;
+    font-family: 'PlayItal';
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 50px;
+    margin-top: 12%;}
+
+          /* Style the tab */
+.tabule {
+    overflow: hidden;
+
+}
+
+/* Style the buttons inside the tab */
+.tab1 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    border-right: 1px solid #dfd5c9;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 16px;
+    transition: 0.3s;
+    font-family: 'PlayReg';
+    font-size: 15px;
+}
+
+.tabule button:last-child {
+    
+    border-right: none;
+    
+}
+
+
+div.tab1 {
+   clear: both; background-color: rgba(0, 0, 0, 0); margin: auto; text-align: center; display: inline-block; }
 
 
 

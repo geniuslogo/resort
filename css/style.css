@@ -859,8 +859,8 @@ div.tab button.active {
 
 .social {width: 20%; margin-left: 30%; margin-top: 7%; float: left;}
 .social li  {clear: both; display: inline-block; margin-right: 12%;}
-.social li a img  {opacity: 0.6; }
-.social li a:hover img  {opacity: 1; transition: all 0.2s ease-in-out;}
+.social li a img  {opacity: 1; }
+.social li a:hover img  {opacity: 0.6; transition: all 0.2s ease-in-out;}
 .social p { font-family: 'Book'; color: #b99b7f; font-size: 15px;font-weight: normal;  line-height: 22px; margin-bottom: 6%; letter-spacing: 1px; margin-left: -57px;}
 
 

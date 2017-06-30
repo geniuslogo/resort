@@ -916,7 +916,7 @@ input:focus {outline: none;}
   cursor: pointer;
   outline: none;
   transition: transform 0.75s ease, background 0.35s ease;
-  color: #533f34;
+  color: #020105;
 }
 
 button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s}
@@ -1267,7 +1267,7 @@ input:focus {outline: none;}
   cursor: pointer;
   outline: none;
   transition: transform 0.75s ease, background 0.35s ease;
-  color: #533f34;
+  color: #020105;
 }
 
 

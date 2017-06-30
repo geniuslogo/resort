@@ -1115,7 +1115,7 @@ div.tab button.active {
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; left: 5.5%;}
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; margin-left: 44.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 

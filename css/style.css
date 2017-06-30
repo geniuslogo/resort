@@ -968,7 +968,7 @@ div.tab button.active {
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; right: 8%;}
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; right: 3.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 
@@ -1012,8 +1012,8 @@ div.tab button.active {
 
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  }
 
-.kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 4%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
-.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 4%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: none;}
+.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}

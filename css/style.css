@@ -1006,13 +1006,13 @@ div.tab button.active {
              /****** L O K A C I J A ******/
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
-.lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 440px;}
-.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: 4%;  }
+.lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
+.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: -4%; }
 .lokacija-box p {float: right; display: block;}
 
-.lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  }
+.lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
 
-.kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 4%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: none;}
+.kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 5%; background-color: rgba(255, 255, 255, 1); padding: 8px 8px 8px 8px; border: none;}
 .kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 

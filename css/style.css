@@ -955,7 +955,7 @@ div.tab button.active {
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px; left: 24.5%;}
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
 
@@ -997,7 +997,7 @@ div.tab button.active {
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 180px; height: 282px; display: block; position: absolute;  margin-top: 0px; left: 13.5%;}
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 180px; height: 282px; display: block; position: absolute;  margin-top: 0px; margin-left: 58.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
 
@@ -1035,7 +1035,7 @@ div.tab button.active {
 @media all and (max-width: 640px) {
 
   /* Slideshow container */
-.slideshow-container {max-width: 100%; padding-top: 60px; padding-bottom: 0.0%;height: 100%; position: relative; margin: auto; background-color: rgba(0,0,0, 1)}
+.slideshow-container {max-width: 100%; padding-top: 60px; padding-bottom: 0.0%; position: relative; margin: auto; }
 .monster::before {z-index: 1; background: url(../images/logtype.svg) no-repeat; content: ''; width: 182px; height: 70px; display: block; position: absolute; top: 47%; left: 0; right: 0; margin: auto;}
 
 .mySlides { display: none;}
@@ -1115,7 +1115,7 @@ div.tab button.active {
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; margin-left: 44.5%;}
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px;     left: 1.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 

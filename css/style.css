@@ -952,23 +952,23 @@ div.tab button.active {
 
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 640px; padding: 20px 0 20px 40px;
-        min-height: 300px; margin-top: 2%; margin-bottom: 6%; border-right: none; }
+        min-height: 320px; margin-top: 2%; margin-bottom: 6%; border-right: none; }
 .p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
 .p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
-          letter-spacing: 1px;  left: 0; margin-top: 44px; margin-right: 37%; text-decoration: none;
+          letter-spacing: 1px;  left: 0; margin-top: 40px; margin-right: 37%; text-decoration: none;
            border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
 
 .p-box a:hover {color: #fff;  transition: all 0.6s ease;}
 
-.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 66px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: -4px;  margin-left: -20%;}
+.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 46px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: 20px;  margin-left: -20%;}
 
 .p-box2 {display: none;}
 
 
-.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 58%; margin-top: -8px; }
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute;  margin-top: 10px; right: 8%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 

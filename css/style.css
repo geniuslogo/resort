@@ -547,18 +547,18 @@ nav ul .fokus a {color: #a78a6f;}
 .paketi-container {width: 1200px; margin:auto;}
 
 .naslovi {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative;}
-.linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute;  top: 50%; }
+.linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
 .linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
 .naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 38px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 54px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
-.paketi-box {background-color: #f1f1ee; width: 1200px; padding: 20px 0 20px 40px; min-height: 320px; margin-top: 6%;}
 
-.p-box {width: 30%; display: block; float: left; text-align: left; margin-right: 18.3%; }
-.p-box:last-child {margin-left: 40px; margin-right: 0%;}
+
+.p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 600px; padding: 20px 0 20px 40px;
+        min-height: 320px; margin-top: 6%; margin-bottom: 6%; border-right: 2px dashed #fff; }
 .p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 25px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p {font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 40px; line-height: 24px; min-height: 120px; width: 90%;}
+.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 40px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -567,9 +567,9 @@ nav ul .fokus a {color: #a78a6f;}
 
 .p-box a:hover {color: #fff;  transition: all 0.6s ease;}
 
-.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 66px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: -4px;}
+.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 66px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: -4px;  margin-left: -13%;}
 
-.isprekidana {min-height: 330px;  border-right: 1px dashed #fff; display: block; float: left; margin-top: -10px;}
+
 
 
 
@@ -586,7 +586,7 @@ nav ul .fokus a {color: #a78a6f;}
           /****** S M E S T A J ******/
 
 
-.smestaj-holder {width: 100%; margin:auto;}
+.smestaj-holder {clear: both; width: 100%; margin:auto;}
 
 .smestaj-container {width: 1200px; margin:auto; margin-top: 4%;}
 
@@ -784,9 +784,43 @@ div.tab button.active {
 
 
 
-              /****** P A K E T I ******/
+         /****** P A K E T I ******/
 
-.paketi-holder {display: none;}
+.paketi-holder {width: 100%; margin:auto;}
+
+.paketi-container {width: 1024px; margin:auto;}
+
+.naslovi {max-width: 1024px;  text-align: center;  margin-bottom: 30px; position: relative;}
+.linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
+.linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
+.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
+
+
+
+
+.p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 511px; padding: 20px 0 20px 40px;
+        min-height: 300px; margin-top: 6%; margin-bottom: 6%; border-right: 2px dashed #fff; }
+.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+
+
+.p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
+          letter-spacing: 1px;  left: 0; margin-top: 44px; margin-right: 37%; text-decoration: none;
+           border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
+
+.p-box a:hover {color: #fff;  transition: all 0.6s ease;}
+
+.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 66px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: -4px;  margin-left: -20%;}
+
+
+
+
+
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
 
               /****** S M E S T A J ******/
 
@@ -796,7 +830,7 @@ div.tab button.active {
            /****** G A L E R I J A ******/
 
 
-       /****** G A L E R I J A  BIBER ******/
+       /****** G A L E R I J A  pocetan ******/
 
 
 
@@ -847,6 +881,162 @@ div.tab button.active {
 
   }
 /**********    kraj pocetne 1199   *****************/
+
+
+        /*              TELEFONI              */
+
+@media all and (max-width: 640px) {
+
+  /* Slideshow container */
+.slideshow-container {max-width: 100%; padding-top: 60px; padding-bottom: 0.0%;height: 100%; position: relative; margin: auto; background-color: rgba(0,0,0, 1)}
+.monster::before {z-index: 1; background: url(../images/logtype.svg) no-repeat; content: ''; width: 182px; height: 70px; display: block; position: absolute; top: 47%; left: 0; right: 0; margin: auto;}
+
+.mySlides { display: none;}
+
+
+
+/* Caption text */
+.text {
+  color: #fff; 
+  font-family: 'PlayItal';
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding: 40px 12px;
+  position: absolute;
+  bottom: 16%;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+   font-family: 'PlayReg';
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px 12px;
+  position: absolute;
+  bottom: 9%;
+  right: 3%;
+  opacity: 0;
+}
+
+.numbertext span { opacity: 0;}
+
+/* Fading animation */
+.fade {-webkit-animation-name: fade; -webkit-animation-duration: 2.5s; animation-name: fade; animation-duration: 2.5s;}
+
+@-webkit-keyframes fade {  from {opacity: .7} to {opacity: 1}}
+
+@keyframes fade { from {opacity: .7} to {opacity: 1}}
+
+
+
+
+        /****** P A K E T I ******/
+
+.paketi-holder {width: 100%; margin:auto;}
+
+.paketi-container {width: 100%; margin:auto;}
+
+.naslovi {width: 100%;  text-align: center;  margin-bottom: 30px; position: relative;}
+.linija1 { display: none; }
+.linija2 { display: none;}
+.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
+
+
+
+
+.p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 640px; padding: 20px 0 20px 40px;
+        min-height: 300px; margin-top: 2%; margin-bottom: 6%; border-right: none; }
+.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+
+
+.p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
+          letter-spacing: 1px;  left: 0; margin-top: 44px; margin-right: 37%; text-decoration: none;
+           border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
+
+.p-box a:hover {color: #fff;  transition: all 0.6s ease;}
+
+.p-box h5 { display: block; float: left; color: #e4e0d8; font-family: 'PlayReg'; font-size: 66px; font-weight: normal; right: 0; letter-spacing: 1px; margin-top: -4px;  margin-left: -20%;}
+
+.p-box2 {display: none;}
+
+
+.p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 58%; margin-top: -8px; }
+
+.p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+
+
+
+
+       /****** G A L E R I J A  pocetan ******/
+
+
+
+.galerija-holder {width: 100%; margin:auto; }
+
+.galerija-container {width: 100%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
+
+
+
+.galerijac1 {display: none;}
+.galerijac2 {display: none;}
+.galerijac5 {display: none;}
+.container  {position: relative; width:49%; padding-right: 0.6%;}
+.container1  {position: relative; width:49%; padding-right: 0.6%;}
+
+
+.image { display: block; width: 100%;  height: auto;}
+.c3 {margin-top: 1vw}
+
+ /*** naslov galerije ***/
+
+
+.overlay { display: none;}
+
+
+
+             /****** L O K A C I J A ******/
+
+.lokacija-holder { display: block; width: 100%; margin:auto; }
+.lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 440px;}
+.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: 4%;  }
+.lokacija-box p {float: right; display: block;}
+
+.lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  }
+
+.kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 4%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
+.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
+
+.kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
+.adr {clear: both;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
+
+.adr p span {color:#a78a6f; }
+#rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

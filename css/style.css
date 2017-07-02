@@ -824,8 +824,9 @@ div.tab button.active {
 
 
               /****** S M E S T A J ******/
-
-.smestaj-holder {display: none;}
+.orion {display: none !important;}
+.smestaj-holder {display: none !important;}
+.smestaj-container {display: none !important;}
 
 
            /****** G A L E R I J A ******/
@@ -960,10 +961,24 @@ div.tab button.active {
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
 
 
+        /****** SMESTAJ ******/
+        .orion {display: none !important;}
+.smestaj-holder {display: none !important;}
+.smestaj-container {display: none !important;}
+.rende {display: none;}
+.tabcontent {display: none;}
+
 }
 
 
 @media all and (max-width: 768px) {
+
+        /****** SMESTAJ ******/
+        .orion {display: none !important;}
+.smestaj-holder {display: none !important;}
+.smestaj-container {display: none;}
+.rende {display: none;}
+
 
        /****** P A K E T I ******/
 
@@ -1120,6 +1135,11 @@ div.tab button.active {
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 
 
+        /****** SMESTAJ ******/
+        .orion {display: none !important;}
+.smestaj-holder {display: none !important;}
+.smestaj-container {display: none;}
+.rende {display: none;}
 
 
 

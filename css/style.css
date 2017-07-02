@@ -845,6 +845,7 @@ div.tab button.active {
 .galerijac1 {display: none;}
 .galerijac2 {display: none;}
 .container  {position: relative; width:49%; padding-right: 0.6%;}
+
 .container1  {position: relative; width:49%; padding-right: 0.6%;}
 
 
@@ -1156,8 +1157,8 @@ div.tab button.active {
 .galerijac1 {display: none;}
 .galerijac2 {display: none;}
 .galerijac5 {display: none;}
-.container  {position: relative; width:49%; padding-right: 0.6%;}
-.container1  {position: relative; width:49%; padding-right: 0.6%;}
+.container  {position: relative; width:49%; padding-right: 0%;}
+.container1  {position: relative; width:49%; padding-right: 0%;}
 
 
 .image { display: block; width: 100%;  height: auto;}

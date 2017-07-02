@@ -1062,10 +1062,16 @@ div.tab button.active {
 .mySlides { display: none;}
 
 .mySlides img {
-max-width: 640px;
-    height: 601px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eee;
+    border-top: none;
+    margin-bottom: -15px;
+    position: relative;
     overflow: hidden;
-    object-fit: cover;}
+    height: calc(100vh - 50px);}
 
 /* Caption text */
 .text {

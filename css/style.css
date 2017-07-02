@@ -458,6 +458,9 @@ nav ul .fokus a {color: #a78a6f;}
 
 .mySlides { display: none;}
 
+.mySlides img {
+	width: 100%}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -750,7 +753,8 @@ div.tab button.active {
 
 .mySlides { display: none;}
 
-
+.mySlides img {
+	width: 100%}
 
 /* Caption text */
 .text {
@@ -895,7 +899,8 @@ div.tab button.active {
 
 .mySlides { display: none;}
 
-
+.mySlides img {
+	width: 100%}
 
 /* Caption text */
 .text {
@@ -1052,11 +1057,15 @@ div.tab button.active {
 
   /* Slideshow container */
 .slideshow-container {max-width: 100%; padding-top: 60px; padding-bottom: 0.0%; position: relative; margin: auto; }
-.monster::before {z-index: 1; background: url(../images/logtype.svg) no-repeat; content: ''; width: 182px; height: 70px; display: block; position: absolute; top: 47%; left: 0; right: 0; margin: auto;}
+.monster::before {z-index: 1; background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute; top: 47%; left: 0; right: 0; margin: auto;}
 
 .mySlides { display: none;}
 
-
+.mySlides img {
+max-width: 640px;
+    height: 601px;
+    overflow: hidden;
+    object-fit: cover;}
 
 /* Caption text */
 .text {

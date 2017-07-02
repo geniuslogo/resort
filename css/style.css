@@ -1123,7 +1123,7 @@ div.tab button.active {
 .naslovi {width: 100%;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { display: none; }
 .linija2 { display: none;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 10%;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 

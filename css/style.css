@@ -85,6 +85,10 @@
 }
 
 
+
+
+
+
 /**** f o n t o v i ****/
 
 @font-face 
@@ -104,6 +108,10 @@
 
       @font-face 
       {font-family: 'Medium'; src:url(../Montserrat-Medium.otf);}
+
+
+
+
 
 
 
@@ -1071,7 +1079,9 @@ div.tab button.active {
     margin-bottom: -15px;
     position: relative;
     overflow: hidden;
-    height: calc(100vh - 50px);}
+    height: calc(100vh - 60px);
+    border: 15px solid #fff;
+    border-top: none;}
 
 /* Caption text */
 .text {

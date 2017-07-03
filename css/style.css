@@ -1693,7 +1693,7 @@ input:focus {outline: none;}
 
       /*    telefon F O O T E R             */
 
-.footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
+.footer-holder {clear: both; width: 100%; margin:auto;  margin-top: -2%; margin-bottom: 1.5%;}
 .footer-container {width: 96%; background: url(../images/footerbek2.png) repeat;   margin:auto;  margin-top: 10%;}
 .footer-box {width: 100%; position: relative; margin:auto;}
 .footer-logo {width: 100%;  float: left; position: absolute; padding-top: 50px; margin: auto; display: block;}

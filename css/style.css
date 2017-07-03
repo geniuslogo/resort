@@ -466,7 +466,12 @@ nav ul .fokus a {color: #a78a6f;}
 .mySlides { display: none;}
 
 .mySlides img {
-	width: 100%}
+	width: 100%;
+  height: calc(100vh - 120px);
+  object-fit: cover;
+
+
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -761,7 +766,12 @@ div.tab button.active {
 .mySlides { display: none;}
 
 .mySlides img {
-	width: 96%}
+	width: 96%;
+  height: calc(100vh - 120px);
+  object-fit: cover;
+
+
+}
 
 /* Caption text */
 .text {

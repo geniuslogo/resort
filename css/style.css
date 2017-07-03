@@ -2125,3 +2125,190 @@ div.tab1 {
 
 
 
+
+
+
+/********************************************************************    C E N O V N I K     *********************************************************************************/
+  /* Large Devices, Wide Screens */
+
+
+         /****** S L I K A ******/
+
+.cenovnik-holder {clear: both; width: 100%; margin:auto;}
+.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
+
+ 
+         /****** C E N O V N I K ******/
+
+.cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.cnv-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
+
+.w3-table {width: 60%;}
+.w3-table .imetabele {font-family: 'Medium'; color: #2b2e36; font-size: 15px; font-weight: normal; text-align: center;}
+.w3-table .nazivtabele {font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; text-align: center;}
+
+.w3-table td:first-child {text-align: center; overflow: hidden; position: relative;}
+.w3-table td:last-child {text-align: center; overflow: hidden; position: relative;}
+
+.w3-table td {border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40px; padding: 0}
+.w3-table th {border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40x; padding: 0}
+
+.w3-table td:first-child::after {
+    display: none;}
+
+
+
+
+           /******   NAPOMENA ******/
+
+
+.napomena-holder {width: 100%; margin:auto; }
+
+.napomena-container {width: 60%; margin:auto; margin-top: 2%; }
+.napomena-container h5 {color: #a78a6f; clear: both; margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 24px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
+.napomena-container li {list-style-type: circle;  clear: both;width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
+
+.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
+.napomena-container span {font-family: 'Medium';}
+
+.podnapomena li {list-style: none;}
+
+.napomena-container2 { margin-bottom: 6%; }
+
+
+
+
+
+           /******   F O O T E R      O NAMA ******/
+
+.footer-onama-holder {clear: both; width: 100%; margin:auto;  margin-top: 2%; margin-bottom: 1.5%;}
+
+
+
+
+      /*        Medium Devices, Desktops       */
+
+
+  @media all and (max-width: 1199px) {
+
+             /****** S L I K A ******/
+
+.cenovnik-holder {clear: both; width: 100%; margin:auto;}
+.cenovnik-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+ 
+         /****** O   S O L A R I S U ******/
+
+.osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
+.osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
+
+.osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
+                                width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
+
+.osolarisu-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
+
+
+
+           /******   NAPOMENA ******/
+
+
+.napomena-holder {width: 100%; margin:auto; }
+
+.napomena-container {width: 70%; margin:auto; margin-top: 2%; }
+.napomena-container h5 {color: #a78a6f; clear: both; margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 26px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
+.napomena-container li {list-style-type: circle;  clear: both;width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
+
+.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 16px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
+.napomena-container span {font-family: 'Medium';}
+
+.podnapomena li {list-style: none;}
+
+.napomena-container2 { margin-bottom: 6%; }
+
+  }
+
+
+
+
+        /*              TELEFONI              */
+
+@media all and (max-width: 640px) {
+
+
+             /****** S L I K A ******/
+
+.cenovnik-holder {clear: both; width: 100%; margin:auto;}
+.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container p {color: rgba(0,0,0,0);  font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+ 
+         /****** O   S O L A R I S U ******/
+
+.osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
+.osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
+.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
+
+.osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
+                                width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
+
+.osolarisu-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
+
+
+           /******   G A L E R I J A      O NAMA ******/
+
+
+.galerija-onama-holder {width: 100%; margin:auto; }
+
+.galerija-onama-container {width: 96%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%}
+
+
+
+
+.container-onama  {position: relative; width:63.8%;}
+.container-onama1  {position: relative; width:31.8%;}
+
+.onama2 {display: none;}
+
+
+.image-onama { display: block; width: 100%;  height: auto;}
+
+
+
+.container-onama:hover .probanje { opacity: 1;}
+.container-onama1:hover .probanje { opacity: 1;}
+
+.overlay { position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: rgba(255, 255, 255, 0.85); cursor: pointer;}
+
+.container-onama:hover .overlay { display: none;}
+.container-onama1:hover .overlay { display: none;}
+
+.text4 {  display: none;}
+
+
+
+}
+
+
+
+
+
+/*********************************************   kraj cenovnika   *************************************************************/
+
+
+

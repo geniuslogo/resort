@@ -761,7 +761,7 @@ div.tab button.active {
 .mySlides { display: none;}
 
 .mySlides img {
-	width: 100%}
+	width: 96%}
 
 /* Caption text */
 .text {
@@ -849,7 +849,7 @@ div.tab button.active {
 
 .galerija-holder {width: 100%; margin:auto; }
 
-.galerija-container {width: 100%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
+.galerija-container {width: 96%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
 
 
 
@@ -907,7 +907,7 @@ div.tab button.active {
 .mySlides { display: none;}
 
 .mySlides img {
-	width: 100%}
+	width: 96%}
 
 /* Caption text */
 .text {
@@ -1034,7 +1034,7 @@ div.tab button.active {
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
 .lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
-.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: -4%; }
+.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: -2%; }
 .lokacija-box p {float: right; display: block;}
 
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
@@ -1174,7 +1174,7 @@ div.tab button.active {
 
 .galerija-holder {width: 100%; margin:auto; }
 
-.galerija-container {width: 100%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
+.galerija-container {width: 96%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
 
 
 
@@ -1198,7 +1198,7 @@ div.tab button.active {
              /****** L O K A C I J A ******/
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
-.lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
+.lokacija-container {width: 96%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
 .mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: -4%; }
 .lokacija-box p {float: right; display: block;}
 
@@ -1389,7 +1389,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .onama-holder {clear: both; width: 100%; margin:auto;}
 .onama-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
-.onama-container {width: 100%; background: url(../images/onama3.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.onama-container {width: 96%; background: url(../images/onama3.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
@@ -1397,7 +1397,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
          /****** O   S O L A R I S U ******/
 
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
-.osolarisu-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
 .osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
@@ -1423,7 +1423,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
              /****** S L I K A ******/
 
 .onama-holder {clear: both; width: 100%; margin:auto;}
-.onama-container {width: 100%; background: url(../images/onama3.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.onama-container {width: 96%; background: url(../images/onama3.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
@@ -1431,7 +1431,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
          /****** O   S O L A R I S U ******/
 
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
-.osolarisu-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
 .osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
@@ -1448,7 +1448,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .galerija-onama-holder {width: 100%; margin:auto; }
 
-.galerija-onama-container {width: 100%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%}
+.galerija-onama-container {width: 96%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%}
 
 
 
@@ -1552,7 +1552,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .smest-holder {clear: both; width: 100%; margin:auto; }
 .smest-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
-.smest-container {width: 100%;  background: url(../images/smest2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.smest-container {width: 96%;  background: url(../images/smest2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .smest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
 
@@ -1588,7 +1588,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 .footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 3%; margin-bottom: 1.5%;}
-.footer-container {width: 100%; background: url(../images/footerbek2.png) repeat;  margin: auto; height: 272px; }
+.footer-container {width: 96%; background: url(../images/footerbek2.png) repeat;  margin: auto; height: 272px; }
 .footer-box {width: 100%; position: relative; margin:auto;}
 .footer-logo {float: left; position: absolute; margin-top: 48px; margin-left: 4%; width: 50%;}
 
@@ -1667,7 +1667,7 @@ input:focus {outline: none;}
 
 {
 .smest-holder {clear: both; width: 100%; margin:auto;}
-.smest-container {width: 100%;  background: url(../images/smest2.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px; -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.smest-container {width: 96%;  background: url(../images/smest2.jpg) no-repeat right top;  margin:auto; background-size: cover; height: 470px; -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .smest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
 
@@ -1694,7 +1694,7 @@ input:focus {outline: none;}
       /*    telefon F O O T E R             */
 
 .footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
-.footer-container {width: 100%; background: url(../images/footerbek2.png) repeat;   margin:auto;  margin-top: 10%;}
+.footer-container {width: 96%; background: url(../images/footerbek2.png) repeat;   margin:auto;  margin-top: 10%;}
 .footer-box {width: 100%; position: relative; margin:auto;}
 .footer-logo {width: 100%;  float: left; position: absolute; padding-top: 50px; margin: auto; display: block;}
 
@@ -1936,7 +1936,7 @@ div.tab button.active {
 
 .rest-holder {clear: both; width: 100%; margin:auto;}
 .rest-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
-.rest-container {width: 100%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.rest-container {width: 96%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
@@ -1944,7 +1944,7 @@ div.tab button.active {
          /****** O   S O L A R I S U ******/
 
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
-.biber-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
 .biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
@@ -1962,7 +1962,7 @@ div.tab button.active {
 
 .galerija-biber-holder {width: 100%; margin:auto; }
 
-.galerija-biber-container {width: 100%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
+.galerija-biber-container {width: 96%; margin:auto; margin-top: 2%; display: flex;  flex-wrap:nowrap; justify-content:space-between; }
 
 
 .container-biber  {position: relative; width:100%;}
@@ -1973,6 +1973,7 @@ div.tab button.active {
 .c6 {display: none;}
 
 .c4, .c8, .c9 {position: relative; width:49%; float: left; padding-right: 0.6%;}
+
 
 .container-biber2  {position: relative;  }
 
@@ -1987,7 +1988,7 @@ div.tab button.active {
 
 
 .ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
-.ala-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.ala-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
 .ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
 
@@ -2066,14 +2067,14 @@ div.tab1 {
            /****** S L I K A ******/ 
 
 .rest-holder {clear: both; width: 100%; margin:auto;}
-.rest-container {width: 100%; background: url(../images/restoran1.jpg) no-repeat right top;  margin:auto; background-size: cover;  height: 470px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.rest-container {width: 96%; background: url(../images/restoran1.jpg) no-repeat right top;  margin:auto; background-size: cover;  height: 470px;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 12px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;opacity: 0;}
 
          /****** O   S O L A R I S U ******/
 
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
-.biber-container {position:relative; clear: both; width: 100%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
+.biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
 .biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
 .biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 7%;}
@@ -2090,7 +2091,7 @@ div.tab1 {
 
 .galerija-biber-holder {width: 100%; margin:auto; }
 
-.galerija-biber-container {width: 100%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%; }
+.galerija-biber-container {width: 96%; margin:auto; margin-top: 3%; display: flex;  flex-wrap:nowrap; justify-content:space-between; margin-bottom: -6%; }
 
 .container-biber  {position: relative; width:100%;}
 .container-biber1  {width:0%;}

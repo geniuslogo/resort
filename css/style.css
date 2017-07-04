@@ -1570,7 +1570,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .apartman-cont-holder {clear: both; width: 100%; margin:auto; margin-top: -1%;}
 .apartman-cont-container {position:relative; clear: both; width: 100%;   margin:auto;  padding: 0 0 6% 0;  }
 .apartman-cont-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
 .apartman-cont-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .sobe-container {width: 60%; position: relative; margin:auto; text-align: center;  }
@@ -1956,7 +1956,7 @@ div.tab button.active {
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
@@ -2000,7 +2000,7 @@ div.tab button.active {
 .ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .ala-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
 
 
 .ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
@@ -2213,7 +2213,7 @@ div.tab1 {
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 30px; margin-bottom: 5%;}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
@@ -2238,7 +2238,7 @@ div.tab1 {
 
 .napomena-container {width: 80%; margin:auto; margin-top: 2%; }
 .napomena-container h5 {text-indent: 0%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayItal'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
-.napomena-container li {list-style-type: circle;  clear: both;width: 100%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
+.napomena-container li {list-style-type: circle;  clear: both;width: 100%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 30px; margin: auto;}
 
 .napomena-container p {clear: both; width: 100%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium';}
@@ -2280,11 +2280,11 @@ div.tab1 {
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 26px}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
-.w3-table {width: 96%;}
+.w3-table {width: 96%; margin-top: 5%;}
 .w3-table .imetabele {font-family: 'Medium'; color: #2b2e36; font-size: 15px; font-weight: normal; text-align: center;}
 .w3-table .nazivtabele {font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; text-align: center;}
 
@@ -2304,9 +2304,9 @@ div.tab1 {
 
 .napomena-container {width: 90%; margin:auto; margin-top: 2%; }
 .napomena-container h5 {text-indent: 2%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayItal'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
-.napomena-container li {list-style-type: circle;  clear: both; width: 88%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 29px; margin: auto;}
+.napomena-container li {list-style-type: circle;  clear: both; width: 88%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto;}
 
-.napomena-container p {clear: both; width: 90%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
+.napomena-container p {clear: both; width: 90%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium';}
 
 .podnapomena li {list-style: none;}

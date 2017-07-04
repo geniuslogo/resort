@@ -2194,6 +2194,8 @@ div.tab1 {
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 .wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
+.wel-box  h6 {font-family: 'PlayItal'; font-size: 22px; color: #a78a6f;  margin-bottom: -5%;}
+
 .cene {
 
     width: 54%;

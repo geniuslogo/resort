@@ -2185,6 +2185,61 @@ div.tab1 {
 
 
 
+         /******   WELNESS CENOVNIK   ******/
+
+.wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
+.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 54%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
+.wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
+
+.cene {
+
+    width: 54%;
+    margin:100px auto;
+    table-layout:fixed;
+    border-collapse: collapse;
+    font-family: 'Book';
+    color: #2b2e36;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    }
+
+  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+
+    td { padding:1em 0 0 0; vertical-align:bottom;}
+    
+.cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
+    
+ .cene td:first-child {
+    text-align: left;
+    font-weight: normal;
+  overflow: hidden;
+    position: relative;
+    }
+    
+td:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:0px ;
+  margin-left: 1em;
+  border-bottom:1px dotted #bfb8b8;
+  letter-spacing: 2px;
+}
+
+    td:last-child {
+    text-align:right;
+    width:3em;
+    }
+
+
+
+
+
            /******   F O O T E R      O NAMA ******/
 
 .footer-onama-holder {clear: both; width: 100%; margin:auto;  margin-top: 2%; margin-bottom: 1.5%;}
@@ -2229,6 +2284,60 @@ div.tab1 {
 
 .w3-table td:first-child::after {
     display: none;}
+
+
+
+
+        /******   WELNESS CENOVNIK   ******/
+
+.wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
+.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
+.wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
+
+.cene {
+
+    width: 84%;
+    margin:100px auto;
+    table-layout:fixed;
+    border-collapse: collapse;
+    font-family: 'Book';
+    color: #2b2e36;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    }
+
+  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+
+    td { padding:1em 0 0 0; vertical-align:bottom;}
+    
+.cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
+    
+ .cene td:first-child {
+    text-align: left;
+    font-weight: normal;
+  overflow: hidden;
+    position: relative;
+    }
+    
+td:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:0px ;
+  margin-left: 1em;
+  border-bottom:1px dotted #bfb8b8;
+  letter-spacing: 2px;
+}
+
+    td:last-child {
+    text-align:right;
+    width:3em;
+    }
 
 
            /******   NAPOMENA ******/
@@ -2297,6 +2406,60 @@ div.tab1 {
 
 .w3-table td:first-child::after {
     display: none;}
+
+
+
+        /******   WELNESS CENOVNIK   ******/
+
+.wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
+.wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
+.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
+.wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
+
+.cene {
+
+    width: 84%;
+    margin:100px auto;
+    table-layout:fixed;
+    border-collapse: collapse;
+    font-family: 'Book';
+    color: #2b2e36;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    }
+
+  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+
+    td { padding:1em 0 0 0; vertical-align:bottom;}
+    
+.cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
+    
+ .cene td:first-child {
+    text-align: left;
+    font-weight: normal;
+  overflow: hidden;
+    position: relative;
+    }
+    
+td:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height:0px ;
+  margin-left: 1em;
+  border-bottom:1px dotted #bfb8b8;
+  letter-spacing: 2px;
+}
+
+    td:last-child {
+    text-align:right;
+    width:3em;
+    }
+
  
            /******   NAPOMENA ******/
 

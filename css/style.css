@@ -2207,7 +2207,7 @@ div.tab1 {
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
 .cnv-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 60%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.cnv-box p {width: 60%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 3%; line-height: 32px}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 .cnv-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
@@ -2236,7 +2236,7 @@ div.tab1 {
 .napomena-container h5 {text-indent: 8%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayReg'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
 .napomena-container li {list-style-type: circle;  clear: both;width: 80%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
 
-.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
+.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium';}
 
 .podnapomena li {list-style: none;}
@@ -2335,7 +2335,7 @@ td:first-child::after {
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 30px; margin-bottom: 5%;}
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 3%; line-height: 30px; margin-bottom: 5%;}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
@@ -2360,7 +2360,7 @@ td:first-child::after {
 .wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
 .wel-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; margin-top: 3%; line-height: 32px}
 .wel-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
 .wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
@@ -2458,7 +2458,7 @@ td:first-child::after {
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 26px}
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 3%; line-height: 26px}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
@@ -2541,7 +2541,7 @@ td:first-child::after {
 .napomena-container h5 {text-indent: 2%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayReg'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
 .napomena-container li {list-style-type: circle;  clear: both; width: 88%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto;}
 
-.napomena-container p {clear: both; width: 90%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto; margin-top: 2%;}
+.napomena-container p {clear: both; width: 90%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium'; color: #1c1c1c; font-size: 14px;}
 
 .podnapomena li {list-style: none;}

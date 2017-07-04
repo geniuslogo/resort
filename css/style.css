@@ -333,11 +333,11 @@ body {
 .cd-primary-nav > ul a {
   /* target primary-nav links */
   display: block;
-  height: 64px;
-  line-height: 64px;
+  height: 54px;
+  line-height: 54px;
   margin: auto;
-  color: #25283D;
-  font-size: 1.6rem;
+  color: #1c1c1c;
+  font-size: 1.35rem;
   border-top: 1px solid #f2f2f2;
   text-decoration: none;
   font-family: 'PlayReg';
@@ -386,7 +386,7 @@ body {
     border: none;
     font-size: 15px;
     font-family: 'PlayReg';
-    color: #2b2e36; 
+    color: #1c1c1c; 
     -webkit-font-smoothing: subpixel-antialiased;
     text-decoration: none;
     
@@ -429,7 +429,7 @@ body {
     border: none;
     font-size: 17px;
     font-family: 'PlayReg';
-    color: #2b2e36; 
+    color: #1c1c1c; 
     -webkit-font-smoothing: subpixel-antialiased;
     text-decoration: none;
     font-weight: normal;
@@ -564,7 +564,7 @@ nav ul .fokus a {color: #a78a6f;}
 .naslovi {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
 .linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 38px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 {color: 1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 38px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 54px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -572,8 +572,8 @@ nav ul .fokus a {color: #a78a6f;}
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 600px; padding: 20px 0 20px 40px;
         min-height: 320px; margin-top: 6%; margin-bottom: 6%; border-right: 2px dashed #fff; }
-.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 25px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 40px; line-height: 24px; min-height: 120px;}
+.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 25px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 40px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -631,6 +631,7 @@ div.tab button {
     transition: 0.3s;
     font-family: 'PlayReg';
     font-size: 15px;
+    color: #1c1c1c;
 }
 
 div.tab button:last-child {
@@ -650,8 +651,8 @@ div.tab button:last-child {
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
 }
-.tabcontent h3 {color: #a78a6f; font-family: 'PlayItal'; font-size: 24px; letter-spacing: 1px; font-weight: normal; margin-bottom: 30px;}
-.tabcontent p {font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 24px; } 
+.tabcontent h3 {color: #a78a6f; font-family: 'PlayReg'; font-size: 24px; letter-spacing: 1px; font-weight: normal; margin-bottom: 30px;}
+.tabcontent p {font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 24px; } 
 .tabcontent a { display: inline-block;  color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;   margin-bottom: 48px; text-decoration: none;
           letter-spacing: 1px;   margin-top: 60px; border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
 
@@ -739,13 +740,13 @@ div.tab button.active {
 
 .lokacija-box { margin:auto; padding-top: 40px;  width: 1200px;}
 
-.kntk {position: relative; float: right;    z-index: 99;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
-.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk {position: relative; float: right;    z-index: 1;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
+.kntk h4 {color: #1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
 .adr {clear: both;}
-.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
 
 .adr p span {color:#a78a6f; }
 #rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
@@ -815,7 +816,7 @@ div.tab button.active {
 .naslovi {max-width: 1024px;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
 .linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -823,8 +824,8 @@ div.tab button.active {
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 511px; padding: 20px 0 20px 40px;
         min-height: 300px; margin-top: 6%; margin-bottom: 6%; border-right: 2px dashed #fff; }
-.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -891,12 +892,12 @@ div.tab button.active {
 .lokacija-box { margin:auto; padding-top: 0px;  width: 100%;}
 
 .kntk {position: relative; float: right;    z-index: 1;   margin-top: 4.4%; margin-right: 4.7%; background-color: rgba(255, 255, 255, 1); padding: 26px 42px 38px 38px; border: 1px solid #a78a6f;}
-.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 {color: #1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 33px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
 .adr {clear: both;}
-.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
 
 .adr p span {color:#a78a6f; }
 #rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
@@ -956,7 +957,7 @@ div.tab button.active {
 .naslovi {width: 100%;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { display: none; }
 .linija2 { display: none;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -964,8 +965,8 @@ div.tab button.active {
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 100%; padding: 20px 0 20px 40px;
         min-height: 320px; margin-top: -1%; margin-bottom: 4%; border-right: none; position: relative;     margin-right: 8%; margin-left: 8%; }
-.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 26px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+.p-box h3 {font-family: 'PlayReg'; color: #2b2e36; font-size: 26px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -1071,7 +1072,7 @@ div.tab button.active {
 .naslovi {width: 100%;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { display: none; }
 .linija2 { display: none;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -1079,8 +1080,8 @@ div.tab button.active {
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 100%; padding: 20px 0 20px 40px;
         min-height: 320px; margin-top: -1%; margin-bottom: 4%; border-right: none; position: relative; margin-right: 5%; margin-left: 5%; }
-.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 26px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 26px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -1109,12 +1110,12 @@ div.tab button.active {
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
 
 .kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 5%; background-color: rgba(255, 255, 255, 1); padding: 8px 8px 8px 8px; border: none;}
-.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 { color:#1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
 .adr {clear: both;}
-.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 22px; margin-top: 4%;}
 
 .adr p span {color:#a78a6f; }
 #rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
@@ -1201,7 +1202,7 @@ div.tab button.active {
 .naslovi {width: 100%;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { display: none; }
 .linija2 { display: none;}
-.naslovi h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 10%;}
+.naslovi h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 10%;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -1209,8 +1210,8 @@ div.tab button.active {
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 100%; padding: 20px 0 20px 20px;
         min-height: 320px; margin-top: 2%; margin-bottom: 6%; border-right: none; margin-right: 2%; margin-left: 2%; }
-.p-box h3 {font-family: 'PlayItal'; color: #2b2e36; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
-.p-box p { width: 50%; font-family: 'Book'; color: #2b2e36; font-size: 15px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
+.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
 .p-box a { display: block; float: left; color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  
@@ -1274,12 +1275,12 @@ div.tab button.active {
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
 
 .kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 5%; background-color: rgba(255, 255, 255, 1); padding: 8px 8px 8px 8px; border: none;}
-.kntk h4 { text-align: center; font-family: 'PlayItal'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 {color: 1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}
 .adr {clear: both;}
-.adr p {text-align: left; float: left;  font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal;  line-height: 22px; margin-top: 4%;}
+.adr p {text-align: left; float: left;  font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal;  line-height: 22px; margin-top: 4%;}
 
 .adr p span {color:#a78a6f; }
 #rastojanje {min-width: 74px; text-align: right; font-family: 'Gotham'; margin-right: 9%;}
@@ -1400,8 +1401,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .osolarisu-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.osolarisu-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
+.osolarisu-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.osolarisu-box p {width: 38%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 
 .osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
@@ -1439,7 +1440,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .container-onama:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
 .container-onama1:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
 
-.text4 {  color: #2b2e36; font-family: 'PlayItal'; font-size: 32px;  position: absolute; top: 50%; left: 50%; font-weight: normal; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
+.text4 {  color: #1c1c1c; font-family: 'PlayReg'; font-size: 32px;  position: absolute; top: 50%; left: 50%; font-weight: normal; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
 
 
            /******   F O O T E R      O NAMA ******/
@@ -1467,8 +1468,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
 .osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.osolarisu-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 34px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
@@ -1501,8 +1502,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
 .osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 16px; font-weight: normal; margin-top: 46px; line-height: 26px}
+.osolarisu-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px}
 .osolarisu-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 4%;}
 
 .osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
@@ -1578,8 +1579,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .apartman-cont-holder {clear: both; width: 100%; margin:auto; margin-top: -1%;}
 .apartman-cont-container {position:relative; clear: both; width: 96%;   margin:auto;  padding: 4% 0 6% 0;  }
-.apartman-cont-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.apartman-cont-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
+.apartman-cont-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.apartman-cont-box p {width: 38%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 
 .sobe-container {width: 1100px; position: relative; margin:auto; text-align: center;  }
@@ -1594,8 +1595,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 
-.sobe-box h3 {color: #a78a6f; font-family: 'PlayItal'; font-size: 24px; letter-spacing: 1px; font-weight: normal; margin: 5% auto; margin-top: 58%;}
-.sobe-box p {font-family: 'Book'; color: #2b2e36; font-size: 14px;font-weight: normal;  line-height: 24px; width: 56%; margin: auto;}
+.sobe-box h3 {color: #a78a6f; font-family: 'PlayReg'; font-size: 24px; letter-spacing: 1px; font-weight: normal; margin: 5% auto; margin-top: 58%;}
+.sobe-box p {font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 24px; width: 56%; margin: auto;}
 .sobe-box a { display: inline-block;  color: #a78a6f; font-family: 'PlayReg'; font-size: 14px;  margin-bottom: 8%; text-decoration: none;
           letter-spacing: 1px;   margin-top: 24px; border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
 .sobe-box a:hover { color: #fff; background-color: #a78a6f; transition: all 0.6s ease;}
@@ -1628,8 +1629,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .apartman-cont-holder {clear: both; width: 100%; margin:auto; margin-top: -1%;}
 .apartman-cont-container {position:relative; clear: both; width: 100%;   margin:auto;  padding: 0 0 6% 0;  }
-.apartman-cont-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
+.apartman-cont-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 32px}
 .apartman-cont-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .sobe-container {width: 60%; position: relative; margin:auto; text-align: center;  }
@@ -1644,8 +1645,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 
 
-.sobe-box h3 {color: #a78a6f; font-family: 'PlayItal'; font-size: 26px; letter-spacing: 1px; font-weight: normal; margin: 5% auto; margin-top: 6%;}
-.sobe-box p {font-family: 'Book'; color: #2b2e36; font-size: 15px;font-weight: normal;  line-height: 24px; width: 60%; margin: auto; line-height: 28px;}
+.sobe-box h3 {color: #a78a6f; font-family: 'PlayReg'; font-size: 26px; letter-spacing: 1px; font-weight: normal; margin: 5% auto; margin-top: 6%;}
+.sobe-box p {font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal;  line-height: 24px; width: 60%; margin: auto; line-height: 28px;}
 .sobe-box a { display: inline-block;  color: #a78a6f; font-family: 'PlayReg'; font-size: 16px;  margin-bottom: 7%; text-decoration: none;
           letter-spacing: 1px;   margin-top: 24px; border: solid #a78a6f; border-width: 1px 0;  line-height: 28px; width: 102px; height: 30px; text-align: center;}
 .sobe-box a:hover { color: #fff; background-color: #a78a6f; transition: all 0.6s ease;}
@@ -1745,15 +1746,15 @@ input:focus {outline: none;}
 
 .apartman-cont-holder {clear: both; width: 100%; margin:auto; margin-top: -1%;}
 .apartman-cont-container {position:relative; clear: both; width: 100%;   margin:auto;  padding: 4% 0 6% 0;  }
-.apartman-cont-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 16px; font-weight: normal; margin-top: 26px; line-height: 26px}
+.apartman-cont-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 26px}
 .apartman-cont-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .sobe-container {width: 100%; position: relative; margin:auto; text-align: center;}
 
 .sobe-box {float: left; width: 100%; display: block; border:none; margin-top: 0%; margin-bottom: 10%; z-index: 1; padding-top: 20px; margin-right: 0%; margin-left: 0%; }
 .sobe-box h3 {margin-top: 14%; font-size: 30px;}
-.sobe-box p {font-size: 16px; width: 80%; margin: auto;}
+.sobe-box p {color: #1c1c1c; font-size: 14px; width: 80%; margin: auto;}
 .sobe-box a {font-size: 18px; width: 116px;}
 .sobe-box1 {margin-right: 0%;}
 
@@ -1814,8 +1815,8 @@ input:focus {outline: none;}
 
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.biber-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
+.biber-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.biber-box p {width: 38%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
@@ -1852,7 +1853,7 @@ input:focus {outline: none;}
 .container-biber:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
 .container2-biber:hover .overlay { opacity: 1; border: 1px solid #a78a6f;}
 
-.text2 {  color: #2b2e36; font-family: 'PlayItal'; font-size: 28px;  position: absolute; top: 50%; left: 50%; font-weight: normal; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
+.text2 {  color: #1c1c1c; font-family: 'PlayReg'; font-size: 28px;  position: absolute; top: 50%; left: 50%; font-weight: normal; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
 
 
 
@@ -1863,8 +1864,8 @@ input:focus {outline: none;}
 
 .ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .ala-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.ala-box p {width: 38%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
+.ala-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.ala-box p {width: 38%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
 
 
 .ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
@@ -1886,8 +1887,9 @@ input:focus {outline: none;}
 
 .biber-box-meni h4 {
     margin: auto;
+    color: #1c1c1c;
     text-align: center;
-    font-family: 'PlayItal';
+    font-family: 'PlayReg';
     font-size: 46px;
     letter-spacing: 1px;
     font-weight: normal;
@@ -2014,8 +2016,8 @@ div.tab button.active {
 
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
+.biber-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.biber-box p {width: 70%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 32px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
@@ -2058,8 +2060,8 @@ div.tab button.active {
 
 .ala-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .ala-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.ala-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 32px}
+.ala-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.ala-box p {width: 70%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 32px}
 
 
 .ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
@@ -2078,8 +2080,9 @@ div.tab button.active {
 
 .biber-box-meni h4 {
     margin: auto;
+    color: #1c1c1c;
     text-align: center;
-    font-family: 'PlayItal';
+    font-family: 'PlayReg';
     font-size: 32px;
     letter-spacing: 1px;
     font-weight: normal;
@@ -2144,8 +2147,8 @@ div.tab1 {
 
 .biber-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 16px; font-weight: normal; margin-top: 46px; line-height: 26px}
+.biber-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
+.biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px}
 .biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
@@ -2203,8 +2206,8 @@ div.tab1 {
 
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
-.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 60%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.cnv-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.cnv-box p {width: 60%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 .cnv-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
@@ -2215,8 +2218,8 @@ div.tab1 {
 .w3-table td:first-child {text-align: center; overflow: hidden; position: relative;}
 .w3-table td:last-child {text-align: center; overflow: hidden; position: relative;}
 
-.w3-table td {border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40px; padding: 0}
-.w3-table th {border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40px; padding: 0}
+.w3-table td {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40px; padding: 0}
+.w3-table th {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 40px; height: 40px; padding: 0}
 
 .w3-table td:first-child::after {
     display: none;}
@@ -2230,10 +2233,10 @@ div.tab1 {
 .napomena-holder {width: 100%; margin:auto; }
 
 .napomena-container {width: 60%; margin:auto; margin-top: 2%; }
-.napomena-container h5 {text-indent: 8%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayItal'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
-.napomena-container li {list-style-type: circle;  clear: both;width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
+.napomena-container h5 {text-indent: 8%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayReg'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
+.napomena-container li {list-style-type: circle;  clear: both;width: 80%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto;}
 
-.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
+.napomena-container p {clear: both; width: 80%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium';}
 
 .podnapomena li {list-style: none;}
@@ -2248,12 +2251,12 @@ div.tab1 {
 
 .wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
-.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.wel-box p {width: 54%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 54%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 .wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
-.wel-box  h6 {font-family: 'PlayItal'; font-size: 22px; color: #a78a6f;  margin-bottom: -5%;}
+.wel-box  h6 {font-family: 'PlayReg'; font-size: 23px; color: #a78a6f;  margin-bottom: -5%;}
 
 .cene {
 
@@ -2268,13 +2271,16 @@ div.tab1 {
     line-height: 24px;
     }
 
-  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+  .cene .promop { font-size: 15px; font-family: 'Gotham'; color: #1c1c1c;}
 
     td { padding:1em 0 0 0; vertical-align:bottom;}
     
 .cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
     
  .cene td:first-child {
+  color: #1c1c1c;
+  font-size: 14px;
+  color: #1c1c1c;
     text-align: left;
     font-weight: normal;
   overflow: hidden;
@@ -2328,8 +2334,8 @@ td:first-child::after {
 
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 30px; margin-bottom: 5%;}
+.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 30px; margin-bottom: 5%;}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
@@ -2340,8 +2346,8 @@ td:first-child::after {
 .w3-table td:first-child {text-align: center; overflow: hidden; position: relative;}
 .w3-table td:last-child {text-align: center; overflow: hidden; position: relative;}
 
-.w3-table td {border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
-.w3-table th {border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
+.w3-table td {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
+.w3-table th {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
 
 .w3-table td:first-child::after {
     display: none;}
@@ -2353,8 +2359,8 @@ td:first-child::after {
 
 .wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
-.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
 .wel-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
 .wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
@@ -2371,13 +2377,15 @@ td:first-child::after {
     line-height: 24px;
     }
 
-  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+  .cene .promop { font-size: 15px; font-family: 'Gotham'; color: #1c1c1c;}
 
     td { padding:1em 0 0 0; vertical-align:bottom;}
     
 .cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
     
  .cene td:first-child {
+  color: #1c1c1c;
+  font-size: 14px;
     text-align: left;
     font-weight: normal;
   overflow: hidden;
@@ -2407,8 +2415,8 @@ td:first-child::after {
 .napomena-holder {width: 100%; margin:auto; }
 
 .napomena-container {width: 80%; margin:auto; margin-top: 2%; }
-.napomena-container h5 {text-indent: 0%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayItal'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
-.napomena-container li {list-style-type: circle;  clear: both;width: 100%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 30px; margin: auto;}
+.napomena-container h5 {text-indent: 0%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayReg'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
+.napomena-container li {list-style-type: circle;  clear: both;width: 100%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 30px; margin: auto;}
 
 .napomena-container p {clear: both; width: 100%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 34px; margin: auto; margin-top: 2%;}
 .napomena-container span {font-family: 'Medium';}
@@ -2449,8 +2457,8 @@ td:first-child::after {
 
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 3%; line-height: 26px}
+.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 26px}
 .cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
@@ -2462,8 +2470,8 @@ td:first-child::after {
 .w3-table td:last-child {text-align: center; overflow: hidden; position: relative;}
 
 
-.w3-table td {border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
-.w3-table th {border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
+.w3-table td {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
+.w3-table th {color: #1c1c1c; border-bottom: 1px solid #e3d2c3; line-height: 16px; padding: 11px; vertical-align: middle;}
 
 .w3-table td:first-child::after {
     display: none;}
@@ -2474,8 +2482,8 @@ td:first-child::after {
 
 .wel-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .wel-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 4% 0;  }
-.wel-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 3%; line-height: 32px}
+.wel-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
+.wel-box p {width: 84%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
 .wel-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
 .wel-box span {font-family: 'PlayBold'; color: #a78a6f; font-size: 15px;}
 
@@ -2492,13 +2500,15 @@ td:first-child::after {
     line-height: 24px;
     }
 
-  .cene .promop { font-size: 16px; font-family: 'Gotham'; color: #2b2e36;}
+  .cene .promop { font-size: 15px; font-family: 'Gotham'; color: #1c1c1c;}
 
     td { padding:1em 0 0 0; vertical-align:bottom;}
     
 .cene td span{font-family: 'PlayReg'; color: #a78a6f; font-size: 19px; font-weight: normal;}
     
  .cene td:first-child {
+    color: #1c1c1c;
+    font-size:14px; 
     text-align: left;
     font-weight: normal;
   overflow: hidden;
@@ -2528,11 +2538,11 @@ td:first-child::after {
 .napomena-holder {width: 100%; margin:auto; }
 
 .napomena-container {width: 90%; margin:auto; margin-top: 2%; }
-.napomena-container h5 {text-indent: 2%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayItal'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
-.napomena-container li {list-style-type: circle;  clear: both; width: 88%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto;}
+.napomena-container h5 {text-indent: 2%; color: #a78a6f; clear: both; margin: auto; text-align: left; font-family: 'PlayReg'; font-size: 22px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-bottom: 2%; margin-top: 5%;}
+.napomena-container li {list-style-type: circle;  clear: both; width: 88%; text-align: left; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto;}
 
 .napomena-container p {clear: both; width: 90%; text-align: left; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 46px; line-height: 26px; margin: auto; margin-top: 2%;}
-.napomena-container span {font-family: 'Medium';}
+.napomena-container span {font-family: 'Medium'; color: #1c1c1c; font-size: 14px;}
 
 .podnapomena li {list-style: none;}
 

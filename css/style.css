@@ -1409,7 +1409,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
 .osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 26px; line-height: 34px}
+.osolarisu-box p {width: 70%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 26px; line-height: 34px}
 .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
 
 .osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
@@ -1443,8 +1443,8 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .osolarisu-holder {clear: both; width: 100%; margin:auto;  margin-top: 1.5%;}
 .osolarisu-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .osolarisu-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
-.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 18px; font-weight: normal; margin-top: 46px; line-height: 26px}
-.onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 4%;}
+.osolarisu-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 46px; line-height: 26px}
+.osolarisu-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 4%;}
 
 .osolarisu-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
                                 width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
@@ -2087,7 +2087,7 @@ div.tab1 {
 .biber-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .biber-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
 .biber-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 15px; font-weight: normal; margin-top: 46px; line-height: 26px}
-.biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%; margin-bottom: 7%;}
+.biber-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%; margin-bottom: 7%;}
 
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
                                 width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0; display: none;}
@@ -2280,7 +2280,7 @@ div.tab1 {
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
 .cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayItal'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
 .cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #2b2e36; font-size: 14px; font-weight: normal; margin-top: 3%; line-height: 32px}
-.cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 4%;}
+.cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
 .w3-table {width: 96%;}

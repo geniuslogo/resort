@@ -2615,7 +2615,7 @@ section img {
 }*/
 
 [class^="arrow"] {
-  height: 200px;
+  height: 84px;
   width: 50px;
   background: rgba(167, 138, 111, 0.4);
   position: absolute;
@@ -2623,6 +2623,18 @@ section img {
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+[class^="arrow"]:hover {
+  height: 84px;
+  width: 50px;
+  background: rgba(167, 138, 111, 1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.6s ease;
+  cursor: pointer;
+}
+
 
 [class^="arrow"]:after {
   content: '';
@@ -2660,6 +2672,17 @@ section img {
   background: rgba(167, 138, 111, 0.4);
   margin: 20px;
   cursor: pointer;
+}
+
+.close:hover {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: rgba(167, 138, 111, 1);
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.6s ease;
 }
 
 .close:after,

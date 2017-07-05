@@ -333,14 +333,14 @@ body {
 .cd-primary-nav > ul a {
   /* target primary-nav links */
   display: block;
-  height: 54px;
-  line-height: 54px;
+  height: 58px;
+  line-height: 58px;
   margin: auto;
   color: #1c1c1c;
-  font-size: 1.45rem;
+  font-size: 1.55rem;
   border-top: 1px solid #f2f2f2;
   text-decoration: none;
-  font-family: 'PlayReg';
+  font-family: 'PlayBold';
 }
 .cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
   color: #a78a6f; transition: all 0.2s ease-in-out;

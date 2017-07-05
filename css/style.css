@@ -2581,8 +2581,15 @@ section {
 
 section img {
   width: 100%;
-  cursor: pointer;
+  cursor: pointer; ;
 }
+section img:hover {
+    opacity: 0.5;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
 
 .lightbox {
   position: fixed;

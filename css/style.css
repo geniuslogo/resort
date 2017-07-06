@@ -1431,7 +1431,7 @@ div.tab button.active {
 .subscribe { position: absolute; margin: auto; width: 400px; height: 40px; 
            transition: all .3s; margin-left: -10%; margin-top: 1%;}
 
-.placeholder {
+.subscribe .placeholder {
   position: absolute;
   top: 12px;
   left: 10px;
@@ -1441,7 +1441,7 @@ div.tab button.active {
   color: rgba(209,195,177,0.4); font-family:'Book'; font-size: 14px; -webkit-font-smoothing: antialiased;
 }
 
-input[type="text"] {
+.subscribe input[type="text"] {
   border: 1px solid #8f7e70; background: rgba(255,255,255,0.0);
   float: left;
   height: 100%;
@@ -1453,10 +1453,10 @@ input[type="text"] {
   -webkit-border-radius:0px;
 }
 
-input:hover {border: 1px solid #8f7e70; background: rgba(209,195,177,0.1);outline: none;
+.subscribe input:hover {border: 1px solid #8f7e70; background: rgba(209,195,177,0.1);outline: none;
       font-family:'Book'; font-size: 14px;  transition: all .3s}
 
-input:focus {outline: none;}
+.subscribe input:focus {outline: none;}
 
 
 .submit {
@@ -1473,7 +1473,7 @@ input:focus {outline: none;}
   color: #020105;
 }
 
-button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s}
+.subscribe button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s}
 
 
 
@@ -1784,7 +1784,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 .subscribe { position: relative; margin: auto; width: 400px; height: 40px; 
            transition: all .3s;  margin-top: -1%;}
 
-.placeholder {
+.subscribe .placeholder {
   position: absolute;
   top: 12px;
   left: 10px;
@@ -1794,7 +1794,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
   color: rgba(209,195,177,0.4); font-family:'Book'; font-size: 14px; -webkit-font-smoothing: antialiased;
 }
 
-input[type="text"] {
+.subscribe input[type="text"] {
   border: 1px solid #8f7e70; background: rgba(255,255,255,0.0);
   float: left;
   height: 100%;
@@ -1804,10 +1804,10 @@ input[type="text"] {
   color: #d1c3b1;
 }
 
-input:hover {border: 1px solid #8f7e70; background: rgba(209,195,177,0.1);outline: none;
+.subscribe input:hover {border: 1px solid #8f7e70; background: rgba(209,195,177,0.1);outline: none;
       font-family:'Book'; font-size: 14px;  transition: all .3s}
 
-input:focus {outline: none;}
+.subscribe input:focus {outline: none;}
 
 
 .submit {
@@ -2846,8 +2846,108 @@ section img:hover {
 .kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .kontakt-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
+.kontakt-box {width: 40%; margin: auto; text-align: center;}
+.kontakt-box h4 span {font-size: 30px;}
+
+.kontakt {margin-top: 20%;}
 
 
+.group        { 
+  position:relative;  
+  clear: both;
+  display: block;
+  margin: auto;
+  margin-bottom:8%;
+}
+.kontakt input         {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+.kontakt input:focus     { outline:none; }
+
+/* LABEL ======================================= */
+.kontakt label          {
+  color:#999; 
+  font-size:18px;
+  font-family: 'PlayReg';
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.kontakt input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  font-size:14px;
+  color:#a78a6f;
+  font-family: 'PlayReg';
+}
+
+/* BOTTOM BARS ================================= */
+.bar  { position:relative; display:block; width:100%; }
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#a78a6f; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+.kontakt input:focus ~ .bar:before, .kontakt input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.kontakt input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
 
 
 
@@ -2865,6 +2965,13 @@ section img:hover {
 .kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .kontakt-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+
+
+.kontakt-box {width: 60%; margin: auto; text-align: center;}
+
+
+
                   }
 
 
@@ -2887,6 +2994,12 @@ section img:hover {
 .kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .kontakt-container p {color: rgba(0,0,0,0);  font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+.kontakt-box {width: 80%; margin: auto; text-align: center;}
+
+
+
+                  }
 
 
 

@@ -191,6 +191,43 @@ body {
     letter-spacing: 2px}
 .booking a:hover {background-color: #927860;  transition: all 0.6s ease;}
 
+@media only screen and (max-width: 1420px){
+  .booking a {
+    right: 0;
+    color: #fff;
+    display: block;
+    line-height: 26px;
+    font-family: 'Gotham';
+    font-size: 12px;
+    background-color: #a78a6f;
+    width: 76px;
+    float: right;
+    margin-right: 0%;
+    top: 30px;
+    position: absolute;
+    text-decoration: none;
+    letter-spacing: 1px}
+
+  }
+  @media only screen and (max-width: 1310px){
+  .booking a {
+    right: 0;
+    color: #fff;
+    display: block;
+    line-height: 26px;
+    font-family: 'Gotham';
+    font-size: 12px;
+    background-color: #a78a6f;
+    width: 76px;
+    float: right;
+    margin-right: 0%;
+    top: 0px;
+    position: absolute;
+    text-decoration: none;
+    letter-spacing: 1px}
+
+  }
+
 @media only screen and (max-width: 1024px){
 .booking a {float: left;
   left:  2%;

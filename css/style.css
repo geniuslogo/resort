@@ -218,14 +218,14 @@ body {
     right: 0;
     color: #fff;
     display: block;
-    line-height: 34px;
+    line-height: 32px;
     font-family: 'Gotham';
     font-size: 13px;
     background-color: #a78a6f;
-    width: 104px;
+    width: 96px;
     float: right;
     margin-right: 2%;
-    top: 26px;
+    top: 28px;
     position: absolute;
     text-decoration: none;
     letter-spacing: 2px}
@@ -271,10 +271,10 @@ body {
 @media only screen and (max-width: 1024px){
 .booking a {float: left;
   left:  2%;
-  top: 14px;
+  top: 16px;
   font-size: 12px;
-  line-height: 30px;
-  width: 86px;
+  line-height: 28px;
+  width: 80px;
 }
 }
 

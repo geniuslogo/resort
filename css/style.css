@@ -2299,7 +2299,7 @@ div.tab1 {
          /****** S L I K A ******/
 
 .cenovnik-holder {clear: both; width: 100%; margin:auto;}
-.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container {width: 96%; background: url(../images/onama2.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .cenovnik-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
 
@@ -2425,7 +2425,7 @@ td:first-child::after {
 
 .cenovnik-holder {clear: both; width: 100%; margin:auto;}
 .cenovnik-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
-.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container {width: 96%; background: url(../images/onama2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .cenovnik-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
@@ -2548,7 +2548,7 @@ td:first-child::after {
              /****** S L I K A ******/
 
 .cenovnik-holder {clear: both; width: 100%; margin:auto;}
-.cenovnik-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.cenovnik-container {width: 96%; background: url(../images/onama2.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .cenovnik-container p {color: rgba(0,0,0,0);  font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
@@ -2822,6 +2822,90 @@ section img:hover {
 
 
 /*********************************************   kraj galerije   *************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************    K O N T A K T     *********************************************************************************/
+
+ /* Large Devices, Wide Screens */
+
+
+         /****** S L I K A ******/
+
+.kontakt-holder {clear: both; width: 100%; margin:auto;}
+.kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.kontakt-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+ @media all and (max-width: 1199px) {
+
+             /****** S L I K A ******/
+
+.kontakt-holder {clear: both; width: 100%; margin:auto;}
+.kontakt-container::before {background: url(../images/logtype.svg) no-repeat; content: ''; width: 240px; height: 100px; display: block; position: absolute;  top: 220px; left: 0; right: 0; margin: auto;}
+.kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 500px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.kontakt-container p {color: rgba(0,0,0,0); font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+                  }
+
+
+
+
+
+
+
+
+
+
+        /*              TELEFONI              */
+
+@media all and (max-width: 640px) {
+
+
+             /****** S L I K A ******/
+
+.kontakt-holder {clear: both; width: 100%; margin:auto;}
+.kontakt-container {width: 96%; background: url(../images/cenovnik1.jpg) no-repeat center top;  margin:auto; background-size: cover; height: 470px;   -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.kontakt-container p {color: rgba(0,0,0,0);  font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+                    letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
+
+
+
+
+
+
+
+/*********************************************   kraj kontakta   *************************************************************/
+
+
+
+
+
+
+
+
+
+
+
 
 
 

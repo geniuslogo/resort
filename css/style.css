@@ -604,7 +604,7 @@ nav ul .fokus a {color: #a78a6f;}
 /* Caption text */
 .text {
   color: #fff; 
-  font-family: 'PlayItal';
+  font-family: 'PlayBold';
   -webkit-font-smoothing: antialiased;
   letter-spacing: 2px;
   font-size: 50px;
@@ -879,7 +879,7 @@ div.tab button.active {
 /* Caption text */
 .text {
   color: #fff; 
-  font-family: 'PlayItal';
+  font-family: 'PlayBold';
   -webkit-font-smoothing: antialiased;
   letter-spacing: 2px;
   font-size: 38px;
@@ -1025,7 +1025,7 @@ div.tab button.active {
 /* Caption text */
 .text {
   color: #fff; 
-  font-family: 'PlayItal';
+  font-family: 'PlayBold';
   -webkit-font-smoothing: antialiased;
   letter-spacing: 2px;
   font-size: 32px;

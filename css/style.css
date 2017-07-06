@@ -194,7 +194,10 @@ body {
 @media only screen and (max-width: 1024px){
 .booking a {float: left;
   left:  2%;
-  top: 12px;
+  top: 14px;
+  font-size: 12px;
+  line-height: 30px;
+  width: 86px;
 }
 }
 

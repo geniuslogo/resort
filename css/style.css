@@ -1495,7 +1495,7 @@ button:hover {background:#d1c3b1; border: 1px solid #d1c3b1; transition: all .3s
 
 .onama-holder {clear: both; width: 100%; margin:auto;}
 .onama-container {width: 96%; background: url(../images/onama3.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
-.onama-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+.onama-container p {color: #fff; font-family: 'PlayBold'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
 
  
@@ -1909,7 +1909,7 @@ input:focus {outline: none;}
 
 .rest-holder {clear: both; width: 100%; margin:auto;}
 .rest-container {width: 96%; background: url(../images/restoran1.jpg) no-repeat center top;  margin:auto; background-size: 100%;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
-.rest-container p {color: #fff; font-family: 'PlayItal'; -webkit-font-smoothing: antialiased;
+.rest-container p {color: #fff; font-family: 'PlayBold'; -webkit-font-smoothing: antialiased;
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center;}
 
  

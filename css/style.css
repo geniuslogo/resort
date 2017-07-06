@@ -2865,7 +2865,7 @@ section img:hover {
   display:block;
   width:100%;
   border:none;
-  border-bottom:1px solid #757575;
+  border-bottom:1px solid #cfcfcf;
 }
 .kontakt input:focus     { outline:none; }
 

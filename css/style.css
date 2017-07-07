@@ -2573,9 +2573,9 @@ td:first-child::after {
 
 .cnv-holder {clear: both; width: 100%; margin:auto; margin-top: 1.5%;}
 .cnv-container {position:relative; clear: both; width: 96%; background: url(../images/bg_pattern-3.jpg) repeat;  margin:auto;  padding: 4% 0 6% 0;  }
-.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; }
-.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 3%; line-height: 26px}
-.cnv-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%;}
+.cnv-box h4 {margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%;}
+.cnv-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px;  margin-top: 7%; line-height: 26px}
+.cnv-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f; line-height: 40px; margin: auto; margin-top: 6%; margin-bottom: 4%;}
 .cnv-box .onama-linija:last-child {display: none;}
 
 .w3-table {width: 96%; margin-top: 9%;}

@@ -2974,15 +2974,15 @@ section img:hover {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-  from { background:#5264AE; }
+  from { background:#fff; }
   to  { width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-  from { background:#5264AE; }
+  from { background:#fff; }
   to  { width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-  from { background:#5264AE; }
+  from { background:#fff; }
   to  { width:0; background:transparent; }
 }
 

@@ -2849,7 +2849,7 @@ section img:hover {
 .kontakt-box {width: 40%; margin: auto; text-align: center;}
 .kontakt-box h4 span {font-size: 30px;}
 
-.kontakt {margin-top: 20%;}
+.kontakt {margin-top: 13%;}
 
 
 .group        { 
@@ -2993,6 +2993,36 @@ section img:hover {
     text-decoration: none;
     letter-spacing: 2px;
     margin:auto;}
+
+
+.informacije1 {margin-top: 4%;}
+
+.informacije2 {margin:auto; text-align: center; display: block; margin-bottom: 5%}
+.informacije3 {margin-top: 3%; margin-bottom: 3%;}
+
+.informacije2 p span {
+    color: #a78a6f;
+    margin: auto;
+    text-align: center;
+    font-family: 'PlayReg';
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    margin-bottom: 2%;
+    margin-top: 5%;}
+
+ .informacije2 p   {
+  text-align: center;
+  width: 96%;
+    margin: auto;
+    font-family: 'Book';
+    color: #1c1c1c;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 3%;
+    line-height: 32px;}
+
+.mapa2 {border: 8px solid #fff;  outline: 1px solid #a78a6f; width: 96%; margin: auto; }
 
 
 

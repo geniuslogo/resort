@@ -198,6 +198,8 @@ body {
 
 -------------------------------- */
 
+.scroll-wrap {overflow-y: scroll; height: 100vh;}
+
 /**** sub m e n i ****/
 /**** position fixed proradio ****/
 .cd-primary-nav ul li ul.submenu {position: absolute; z-index: 10000000000000; top: 70px; margin-left: -20px;  background: #fff; text-align: left;   width: 220px; display: none; }

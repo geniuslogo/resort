@@ -197,8 +197,9 @@ body {
 1. Auto-Hiding Navigation - Simple
 
 -------------------------------- */
-
-  .scroll-wrap {overflow-y: scroll; height: 84vh; overflow: auto;}
+@media only screen and (max-width: 1024px) {
+      .scroll-wrap {overflow-y: scroll; height: 84vh; overflow: auto; display: block;}
+    }
 
 /**** sub m e n i ****/
 /**** position fixed proradio ****/
@@ -452,6 +453,9 @@ body {
 
 
 @media only screen and (min-width: 1024px) {
+
+
+
 
 
 

@@ -856,6 +856,15 @@ div.tab button.active {
 
 
 
+          /****** L O K A C I J A 1270******/
+
+  @media all and (max-width: 1270px) {
+    .mapa {float: left; position:absolute; display: block; width: 1140px; margin:auto; border: 8px solid #fff;  outline: 1px solid #a78a6f; }
+    .lokacija-box { margin:auto; padding-top: 40px;  width: 1140px;}
+
+  }
+
+
 
 /********************************************************************    P O C E T N A     *********************************************************************************/
       /*  P O C E T N A        Medium Devices, Desktops       */
@@ -988,7 +997,7 @@ div.tab button.active {
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
 .lokacija-container {width: 100%;  margin:auto; margin-top: 2%; height: 440px;}
-.mapa {float: left; position:absolute; display: block; width: 96%; margin:auto; border: none;  outline: none; margin-left: 2%; }
+.mapa {float: left; position:absolute; display: block; width: 96%; margin:auto; border: 8px solid #fff;  outline: 1px solid #a78a6f; margin-left: 2%; }
 .lokacija-box p {float: right; display: block;}
 
 .lokacija-box { margin:auto; padding-top: 0px;  width: 100%;}
@@ -1206,7 +1215,7 @@ div.tab button.active {
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
 .lokacija-container {width: 100%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
-.mapa {clear: both; float: left; position:relative; display: block; width: 96%;  margin:auto; border: none;  outline: none; margin-bottom: -2%; }
+.mapa {clear: both; float: left; position:relative; display: block; width: 96%;  margin:auto; border: 8px solid #fff;  outline: 1px solid #a78a6f; margin-bottom: -2%; }
 .lokacija-box p {float: right; display: block;}
 
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
@@ -1376,13 +1385,13 @@ div.tab button.active {
 
 .lokacija-holder { display: block; width: 100%; margin:auto; }
 .lokacija-container {width: 96%;  margin:auto; margin-top: 4%; margin-bottom: 4%; height: 0%;}
-.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: none;  outline: none; margin-bottom: -4%; }
+.mapa {clear: both; float: left; position:relative; display: block; width: 100%;  margin:auto; border: 8px solid #fff;  outline: 1px solid #a78a6f; margin-bottom: -4%; }
 .lokacija-box p {float: right; display: block;}
 
 .lokacija-box {clear: both; margin:auto; padding-top: 0px;  width: 100%;  display: inline-grid; }
 
 .kntk { clear: both; position: relative; float: left; z-index: 0;display: inline-block;   margin: auto; margin-bottom: 5%; background-color: rgba(255, 255, 255, 1); padding: 8px 8px 8px 8px; border: none;}
-.kntk h4 {color: 1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
+.kntk h4 {color: #1c1c1c; text-align: center; font-family: 'PlayReg'; font-size: 31px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; text-align: left;}
 .kntk h4 span {color: #a78a6f; font-size: 48px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 .kntk li {list-style: none; margin-left: 10%; margin-top: 3%;}

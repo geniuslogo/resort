@@ -197,7 +197,7 @@ body {
 1. Auto-Hiding Navigation - Simple
 
 -------------------------------- */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
       .scroll-wrap {overflow-y: scroll; height: 84vh; overflow: auto; display: block;}
     }
 
@@ -249,7 +249,8 @@ body {
     top: 30px;
     position: absolute;
     text-decoration: none;
-    letter-spacing: 1px}
+    letter-spacing: 1px;
+    z-index:9;}
 
   }
   @media only screen and (max-width: 1310px){
@@ -267,11 +268,12 @@ body {
     top: 0px;
     position: absolute;
     text-decoration: none;
-    letter-spacing: 1px}
+    letter-spacing: 1px
+    z-index:9;}
 
   }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1023px){
 .booking a {float: left;
   left:  2%;
   top: 16px;

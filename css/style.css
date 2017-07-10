@@ -665,13 +665,17 @@ nav ul .fokus a {color: #a78a6f;}
 
 
 
-
+          /****** O   S O L A R I S U ******/
+.naslovi2 {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative; margin: auto;}
+.osolarisu-box {margin-bottom: 6%;}
 
           /****** P A K E T I ******/
 
 .paketi-holder {width: 100%; margin:auto;}
 
 .paketi-container {width: 1200px; margin:auto;}
+
+
 
 .naslovi {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative;}
 .linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
@@ -2920,6 +2924,7 @@ section img:hover {
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
 }
+
 
 /* active state */
 .kontakt input:focus ~ label, input:valid ~ label    {

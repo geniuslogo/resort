@@ -716,6 +716,10 @@ nav ul .fokus a {color: #a78a6f;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
 
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
+.p-box6::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
 .p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
 
 .p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
@@ -992,8 +996,19 @@ div.tab button.active {
 
 
 .p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
-
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box8::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 170px; height: 301px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 
 
               /****** S M E S T A J ******/
@@ -1133,7 +1148,19 @@ div.tab button.active {
 
 .p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
 
-.p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
+
+.p-box8::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%; }
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%; }
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 184px; height: 282px; display: block; position: absolute;  margin-top: 0px;     margin-left: 62.5%;}
+
+
 
 
         /****** SMESTAJ ******/
@@ -1249,6 +1276,21 @@ div.tab button.active {
 .p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 180px; height: 282px; display: block; position: absolute;  margin-top: 0px; margin-left: 58.5%;}
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box8::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px; left: : 3.5%; }
+
+
+
 
 
              /****** L O K A C I J A ******/
@@ -1367,7 +1409,7 @@ div.tab button.active {
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 100%; padding: 20px 0 20px 20px;
         min-height: 320px; margin-top: 2%; margin-bottom: 6%; border-right: none; margin-right: 2%; margin-left: 2%; }
-.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px;}
+.p-box h3 {font-family: 'PlayReg'; color: #1c1c1c; font-size: 22px;font-weight: normal;  margin-top: 10px; line-height: 30px; letter-spacing: 1px; width: 60%}
 .p-box p { width: 50%; font-family: 'Book'; color: #1c1c1c; font-size: 14px;font-weight: normal; margin-top: 50px; line-height: 24px; min-height: 120px;}
 
 
@@ -1387,8 +1429,33 @@ div.tab button.active {
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 0px; height: 0px; display: block; position: absolute; margin-left: 280px; margin-top: -50px; }
 
 
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box8::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 150px; height: 260px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+
 @media all and (max-width: 568px) {
   .p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute;  margin-top: 10px;     left: 1.5%;}
+
+.p-box7::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box8::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 116px; height: 236px; display: block; position: absolute; margin-top: 10px;     left: 1.5%;}
 
 }
 

@@ -669,6 +669,8 @@ nav ul .fokus a {color: #a78a6f;}
 .naslovi2 {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative; margin: auto;}
 .osolarisu-box {margin-bottom: 6%;}
 
+
+
           /****** P A K E T I ******/
 
 .paketi-holder {width: 100%; margin:auto;}
@@ -713,6 +715,14 @@ nav ul .fokus a {color: #a78a6f;}
 .p-box::before {background: url(../images/paket1.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
 
 .p-box2::before {background: url(../images/paket2.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
+.p-box3::before {background: url(../images/paket3.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
+.p-box4::before {background: url(../images/paket4.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
+.p-box5::before {background: url(../images/paket5.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
+
+.p-box6::before {background: url(../images/paket6.jpg) no-repeat; content: ''; width: 184px; height: 301px; display: block; position: absolute; margin-left: 350px; margin-top: -50px; }
 
 
 
@@ -1606,6 +1616,9 @@ div.tab button.active {
 
 
   @media all and (max-width: 1199px) {
+
+
+
 
              /****** S L I K A ******/
 

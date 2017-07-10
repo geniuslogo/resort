@@ -678,9 +678,15 @@ nav ul .fokus a {color: #a78a6f;}
 
 
 .naslovi {width: 1200px;  text-align: center;  margin-bottom: 30px; position: relative;}
-.linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
-.linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
-.naslovi h4 {color: 1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 38px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
+.naslovi .onama-linija {    width: 5.2%;
+    height: 1px;
+    background-color: #a78a6f;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.naslovi h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 46px;  letter-spacing: 1px; font-weight: normal; line-height: 50px;}
 .naslovi h4 span {color: #a78a6f; font-size: 54px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
 
@@ -727,6 +733,8 @@ nav ul .fokus a {color: #a78a6f;}
 .naslovi2 {width: 1200px;  text-align: center; margin-top: 20px; margin-bottom: 30px; position: relative;}
 .naslovi2 h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 38px;  letter-spacing: 2px; font-weight: normal; line-height: 50px;}
 
+.linija1 { width: 32%; height: 1px; background-color: #a78a6f; left: 0; line-height: 40px; position: absolute; top: 50%; }
+.linija2 { width: 32%; height: 1px; background-color: #a78a6f;  right:0; position: absolute;  top: 50%;}
 
           /* Style the tab */
 div.tab {
@@ -897,6 +905,14 @@ div.tab button.active {
   object-fit: cover;
 
 
+}
+
+.naslovi .onama-linija {    width: 10%;
+    height: 1px;
+    background-color: #a78a6f;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 3%;
 }
 
 /* Caption text */
@@ -1330,7 +1346,13 @@ div.tab button.active {
 .naslovi h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 10%;}
 .naslovi h4 span {color: #a78a6f; font-size: 44px; -webkit-font-smoothing: antialiased; margin-top: 10px; line-height: 50px; }
 
-
+.naslovi .onama-linija {    width: 20%;
+    height: 1px;
+    background-color: #a78a6f;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 4%;
+}
 
 
 .p-box { display: block; float: left; text-align: left;  background-color: #f1f1ee; max-width: 100%; padding: 20px 0 20px 20px;
@@ -1761,7 +1783,7 @@ div.tab button.active {
 .apartman-cont-container {position:relative; clear: both; width: 100%;   margin:auto;  padding: 0 0 6% 0;  }
 .apartman-cont-box h4 {color: #1c1c1c; margin: auto; text-align: center; font-family: 'PlayReg'; font-size: 32px;  letter-spacing: 1px; font-weight: normal; line-height: 50px; margin-top: 7%; }
 .apartman-cont-box p {width: 80%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 26px; line-height: 32px}
-.apartman-cont-box .onama-linija {width: 20%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 6%;}
+.apartman-cont-box .onama-linija {width: 10%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%;}
 
 .sobe-container {width: 80%; position: relative; margin:auto; text-align: center;  }
 
@@ -2458,7 +2480,7 @@ td:first-child::after {
                     letter-spacing: 2px; font-size: 40px; padding-top:27%; padding-bottom: 3%; width: 100%; text-align: center; opacity: 0;}
 
  
-
+.onama-linija {width: 10%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 4%;}
 
          /****** C E N O V N I K ******/
 
@@ -2935,7 +2957,7 @@ section img:hover {
 }
 
 /* active state */
-.kontakt textarea:focus ~ label, input:valid ~ label    {
+.kontakt textarea:focus ~ label, input:valid ~ label {
   top:-20px;
   font-size:14px;
   color:#a78a6f;

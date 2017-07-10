@@ -1971,11 +1971,12 @@ div.tab button.active {
 .biber-box p {width: 38%; margin: auto; font-family: 'Book'; color: #1c1c1c; font-size: 14px; font-weight: normal; margin-top: 46px; line-height: 32px; text-align: justify;}
 .onama-linija {width: 4.2%; height: 1px; background-color: #a78a6f;  line-height: 40px;  margin: auto; margin-top: 3%;}
 
-.biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
-                                width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0;}
 
-.biber-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
-                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
+.biber-container::before { background: url(../images/onama-left1.png) no-repeat; content: '';
+                                width: 250px; height: 370px; display: block; position: absolute;  left: 0; bottom: 0;}
+
+.biber-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
 
@@ -2023,8 +2024,10 @@ div.tab button.active {
 .ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
                                 width: 172px; height: 114px; display: block; position: absolute;  left: 3%; bottom: 36%;}
 
-.ala-container::after { background: url(../images/ala-right.png) no-repeat; content: '';
-                                width: 262px; height: 240px; display: block; position: absolute;  right: 0; bottom: 12%;}
+
+
+.ala-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
+                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
 
@@ -2175,8 +2178,8 @@ div.tab button.active {
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
                                 width: 0px; height: 0px; display: block; position: absolute;  left: 0; bottom: 0;}
 
-.biber-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
-                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
+.biber-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
 
@@ -2219,8 +2222,8 @@ div.tab button.active {
 .ala-container::before { background: url(../images/ala-left.png) no-repeat; content: '';
                                 width: 172px; height: 114px; display: block; position: absolute;  left: 3%; bottom: 36%;}
 
-.ala-container::after { background: url(../images/ala-right.png) no-repeat; content: '';
-                                width: 262px; height: 240px; display: block; position: absolute;  right: 0; bottom: 12%;}
+.ala-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
+                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
 .alacarte-holder {width: 100%; margin:auto;}
@@ -2306,8 +2309,9 @@ div.tab1 {
 .biber-container::before { background: url(../images/biber-left.png) no-repeat; content: '';
                                 width: 400px; height: 249px; display: block; position: absolute;  left: 0; bottom: 0; display: none;}
 
-.biber-container::after { background: url(../images/biber-right.png) no-repeat; content: '';
-                                width: 278px; height: 322px; display: block; position: absolute;  right: 0; bottom: 0;}
+
+.biber-container::after { background: url(../images/onama-right2.png) no-repeat; content: '';
+                                width: 182px; height: 332px; display: block; position: absolute;  right: 0; bottom: 0;}
 
 
        /****** G A L E R I J A  BIBER ******/

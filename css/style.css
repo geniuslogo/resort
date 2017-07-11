@@ -1535,7 +1535,7 @@ div.tab button.active {
 
 .footer-holder {clear: both; width: 100%; margin:auto;  margin-top: 8%; margin-bottom: 1.5%;}
 .footer-container {width: 96%; background: url(../images/footerbek2.png) repeat;  margin:auto; height: 272px; }
-.footer-box {width: 1200px; position: relative; margin:auto;}
+.footer-box {max-width: 1200px; position: relative; margin:auto;}
 .footer-logo {float: left; position: absolute; margin-top: 7.6%; margin-left: 3%;}
 
 .social {width: 20%; margin-left: 30%; margin-top: 7%; float: left;}
